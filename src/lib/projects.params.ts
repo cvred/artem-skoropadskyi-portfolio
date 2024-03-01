@@ -4,20 +4,47 @@ import type { Project } from './types';
 
 const MY_PROJECTS: Array<Project> = [
 	{
-		slug: 'temp-1',
+		slug: 'ftk-2',
 		color: '#5e95e3',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'As an QA Technician for Testronic, I\'ve been actively involved in the development of "For The King 2" diligently identifying and resolving issues to enhance the gaming experience. This project transports players into the enchanting yet perilous realm of Farul, where they embark on a journey to overthrow the despotic Queen Rozomon. With a campaign spanning over 30 hours of gameplay divided into 5 interconnected adventures, "For The King 2" offers a rogue-lite experience characterized by its easy-to-grasp mechanics and strategic depth. Players can choose from 12 unique character classes, collaborate in teams of up to four players, and engage in turn-based combat enriched by tactical positioning. With its procedurally generated maps and diverse environments ranging from lush forests to treacherous swamps, "For The King 2" promises an immersive and captivating gaming world for both seasoned adventurers and newcomers alike.',
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+			'Project that I\'ve been working as FQA technichian, finding issues and implementing fixes',
+		links: [{ to: 'https://store.steampowered.com/app/1676840/For_The_King_II/', label: 'Steam' }],
 		logo: Assets.Unknown,
-		name: 'Template1',
+		name: 'For The King II',
 		period: {
-			from: new Date()
+			from: new Date('July 2023'),
+			to: new Date('November 2023')
 		},
-		skills: getSkills('cpp'),
-		type: 'Template'
+		skills: getSkills('jira', 'bitbucket', 'unity', 'cs'),
+		type: 'CommercialProject',
+		screenshots: [
+			{
+				label: 'gameplay screenshot 1',
+				src: 'ftk2/1.png',
+			},
+			{
+				label: 'gameplay screenshot 1',
+				src: 'ftk2/2.png',
+			},
+			{
+				label: 'gameplay screenshot 1',
+				src: 'ftk2/3.jpg',
+			},
+			{
+				label: 'gameplay screenshot 1',
+				src: 'ftk2/4.jpg',
+			},
+			{
+				label: 'gameplay screenshot 1',
+				src: 'ftk2/5.jpg',
+			},
+			{
+				label: 'credits',
+				src: 'ftk2/6.jpg',
+			},
+		]
 	},
 	{
 		slug: 'temp-2',

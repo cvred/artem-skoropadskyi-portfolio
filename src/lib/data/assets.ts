@@ -84,7 +84,10 @@ const Assets = {
 	Mocha: a('mocha.svg'),
 	Math: a('math.svg'),
 	Tensorflow: a('tensorflow-1.svg'),
-	University: a('kpi.svg')
+	University: a('kpi.svg'),
+	DragonsLake: a('dralake.svg'),
+	Testronic: a('testro.svg'),
+	Luxolis: a('luxolis.svg')
 };
 
 export default Assets;
