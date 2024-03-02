@@ -87,7 +87,10 @@ const Assets = {
 	University: a('kpi.svg'),
 	DragonsLake: a('dralake.svg'),
 	Testronic: a('testro.svg'),
-	Luxolis: a('luxolis.svg')
+	Luxolis: a('luxolis.svg'),
+	Threejs: a('threejs.svg'),
+	WebGL: a('webgl.svg'),
+	ForTheKing2: a('ftk2.svg')
 };
 
 export default Assets;

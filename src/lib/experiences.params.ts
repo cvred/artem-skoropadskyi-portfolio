@@ -11,7 +11,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		type: 'Intern Gameplay Programmer',
 		location: 'Remote',
 		period: { from: new Date('March 2022'), to: new Date('September 2022') },
-		skills: getSkills('ue'),
+		skills: getSkills('ue', 'vs', 'cpp', 'vulkan', 'opengl', 'blueprints', 'github', 'math'),
 		name: 'Unreal Engine Developer',
 		color: 'midnightblue',
 		links: [],
@@ -26,12 +26,12 @@ const MY_EXPERIENCES: Array<Experience> = [
 		type: 'Junior Gameplay Programmer',
 		location: 'Remote',
 		period: { from: new Date('September 2022'), to: new Date('Feburary 2023') },
-		skills: getSkills('ue'),
+		skills: getSkills('ue', 'vs', 'cpp', 'vulkan', 'opengl', 'blueprints', 'jira', ' bitbucket', 'github', 'math'),
 		name: 'Unreal Engine Developer',
 		color: 'midnightblue',
 		links: [],
 		logo: Assets.DragonsLake,
-		shortDescription: 'Worked On unreleased projects'
+		shortDescription: 'Worked on unreleased projects'
 	},
 	{
 		slug: 'qa-tech',
@@ -46,22 +46,22 @@ const MY_EXPERIENCES: Array<Experience> = [
 		color: 'mediumblue',
 		links: [{to: 'https://store.steampowered.com/app/1676840/For_The_King_II/', label: 'steam'}],
 		logo: Assets.Testronic,
-		shortDescription: ''
+		shortDescription: 'Providing QA services for titles'
 	},
 	{
 		slug: 'software-contract-junior',
 		company: 'Luxolis',
 		description: 'job desc',
-		contract: ContractType.Contract,
+		contract: ContractType.Freelance,
 		type: 'Freelance Software Engineer',
 		location: 'Remote',
 		period: { from: new Date('August 2023'), to: new Date('November 2023')},
-		skills: getSkills('js', 'cpp'),
+		skills: getSkills('js', 'webgl', '3js', 'rjs', 'mocha','cpp', 'opengl', 'github'),
 		name: 'C++ and Javascript Engineer',
 		color: 'mediumorchid',
 		links: [],
 		logo: Assets.Luxolis,
-		shortDescription: ''
+		shortDescription: 'Worked closely with rendering 3d in web space.'
 	}
 ];
 

@@ -11,14 +11,14 @@ const MY_PROJECTS: Array<Project> = [
 		shortDescription:
 			'Project that I\'ve been working as FQA technichian, finding issues and implementing fixes',
 		links: [{ to: 'https://store.steampowered.com/app/1676840/For_The_King_II/', label: 'Steam' }],
-		logo: Assets.Unknown,
+		logo: Assets.ForTheKing2,
 		name: 'For The King II',
 		period: {
 			from: new Date('July 2023'),
 			to: new Date('November 2023')
 		},
 		skills: getSkills('jira', 'bitbucket', 'unity', 'cs'),
-		type: 'CommercialProject',
+		type: 'Commercial Project',
 		screenshots: [
 			{
 				label: 'gameplay screenshot 1',
@@ -47,20 +47,21 @@ const MY_PROJECTS: Array<Project> = [
 		]
 	},
 	{
-		slug: 'temp-2',
+		slug: 'web-cad',
 		color: '#ff3e00',
 		description:
 			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
 		shortDescription:
 			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+		links: [{ to: '', label: 'GitHub' }],
 		logo: Assets.Unknown,
-		name: 'Template2',
+		name: 'Commercial Project',
 		period: {
-			from: new Date()
+			from: new Date('August 2023'),
+			to: new Date('November 2023')
 		},
 		skills: getSkills('cpp'),
-		type: 'Template',
+		type: 'Commercial Project',
 		screenshots: [
 			{
 				label: 'screen 1',
