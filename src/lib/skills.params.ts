@@ -67,11 +67,11 @@ const MY_SKILLS = [
 	s({
 		slug: 'dx',
 		color: 'black',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+		description: 
+			`Microsoft DirectX has been an area of exploration for me as a game developer seeking to expand my knowledge in graphic libraries. I've delved into DirectX as an educational endeavor, working on projects and familiarizing myself with HLSL and various options that DirectX can offer.`,
 		logo: Assets.DirectX,
 		name: 'Microsoft DirectX'
-	}),
+	}),	
 	s({
 		slug: 'vulkan',
 		color: 'red',
@@ -99,14 +99,14 @@ const MY_SKILLS = [
 	s({
 		slug: 'github',
 		color: 'purple',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+		description: 
+			`Github was one of the first version control systems I encountered on my coding journey. Through utilizing Git and engaging with Github, I developed a solid foundation in version control both during my university studies and in professional work settings.`,
 		logo: Assets.Github,
 		name: 'Github'
-	}),
+	}),	
 	s({
 		slug: 'python',
-		color: 'yellow',
+		color: 'goldenrod',
 		description: 
 			`Python has been a key focus of mine, during my university studies, where I mastered its implementation for algorithmic and mathematical purposes. I have also ventured into areas such as Machine Learning and Data Science, utilizing Python extensively for these endeavors.`,
 		logo: Assets.Python,
@@ -114,7 +114,7 @@ const MY_SKILLS = [
 	}),
 	s({
 		slug: 'numpy',
-		color: 'blue',
+		color: 'dodgerblue',
 		description: 
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
 		logo: Assets.Numpy,
@@ -138,7 +138,7 @@ const MY_SKILLS = [
 	}),
 	s({
 		slug: 'ps',
-		color: 'blue',
+		color: 'deepskyblue',
 		description: 
 			`Adobe Photoshop is an essential tool in my toolkit for raster drawing tasks and graphic design work.`,
 		logo: Assets.Photoshop,
@@ -156,18 +156,26 @@ const MY_SKILLS = [
 		slug: 'js',
 		color: 'yellow',
 		description: 
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			`JavaScript was the frontend scripting language I began learning in school and continued to study throughout university. While I rarely use pure JavaScript in my projects, I am fully capable of leveraging it to create dynamic animations and interactive elements.`,
 		logo: Assets.JavaScript,
 		name: 'JavaScript'
-	}),
+	}),	
 	s({
 		slug: 'njs',
 		color: 'green',
 		description: 
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			`Node.js has been a staple in many of my projects due to its simplicity and easy-to-understand structure. I utilized it extensively in numerous university projects and gained valuable working experience with it.`,
 		logo: Assets.NodeJs,
 		name: 'NodeJS'
 	}),
+	s({
+		slug: 'ts',
+		color: 'deepskyblue',
+		description: 
+			`Similar to Node.js, I often turn to TypeScript for various projects, ranging from coursework to developing my portfolio website. I appreciate the toolkit that TypeScript offers, enhancing productivity and code quality.`,
+		logo: Assets.TypeScript,
+		name: 'TypeScript'
+	}),	
 	s({
 		slug: 'mongodb',
 		color: 'green',
@@ -226,12 +234,12 @@ const MY_SKILLS = [
 	}),
 	s({
 		slug: 'math',
-		color: 'green',
+		color: 'lightgreen',
 		description: 
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			`Mathematics has been my passion since middle school, especially after realizing my ambition to pursue a career in game development. During university, I delved deeply into various mathematical subjects, including Linear Algebra, Mathematical Analysis, and Game Theory, enriching my understanding and skills.`,
 		logo: Assets.Math,
 		name: 'Math'
-	}),
+	})
 ];
 
 export default MY_SKILLS;
