@@ -1,7 +1,7 @@
 import { browser } from '$app/environment';
 import { writable } from 'svelte/store';
 
-const key = '@riadh-adrani-theme';
+const key = '@toogle-themes';
 
 const updateLocalStorage = (value: boolean) => {
 	if (browser) {
@@ -25,16 +25,13 @@ export const toggleTheme = (value?: boolean) =>
 export const onHydrated = () => {
 	const fromStore = localStorage.getItem(key);
 
-	if (!fromStore) {
-		if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-			// dark mode
-			toggleTheme(true);
-		}
-		else {
-			// light mode
-			toggleTheme(false);
-		}
-	} else {
-		toggleTheme(JSON.parse(fromStore));
-	}
+	if (window.matchMedia) {
+		const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+		toggleTheme(prefersDarkMode);
+	 }
+	 else {
+
+		 toggleTheme(false);
+	 }
 };

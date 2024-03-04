@@ -1,4 +1,8 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
+  	import { writable } from 'svelte/store';
+
+	import Preloader from '$lib/components/Preloader/Preloader.svelte';
 	import Carrousel from '$lib/components/Carrousel/Carrousel.svelte';
 	import Icon from '$lib/components/Icon/Icon.svelte';
 	import MainTitle from '$lib/components/MainTitle/MainTitle.svelte';
@@ -17,11 +21,25 @@
 
 		return !isBlank(email) && reg.test(email);
 	};
+
+	const contentLoaded = writable(false);
+
+  	onMount(() => {
+    	setTimeout(() => {
+      		contentLoaded.set(true);
+    	}, 0);
+  	});
+
 </script>
+
+<div class="{`preloader ${$contentLoaded ? 'hidden' : ''}`}">
+  <Preloader />
+</div>
 
 <svelte:head>
 	<title>{useTitle(title, TITLE_SUFFIX)}</title>
 </svelte:head>
+
 <div
 	class="col self-center flex-1 md:flex-row md:slef-stretch justify-center lg:justify-between items-center p-y-0px p-x-10px"
 >

@@ -1,4 +1,7 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
+  	import { writable } from 'svelte/store';
+
 	import Card from '$lib/components/Card/Card.svelte';
 	import { base } from '$app/paths';
 	import { SKILLS } from '$lib/params';
@@ -21,6 +24,14 @@
 
 		result = items.filter((it) => it.name.toLowerCase().includes(query));
 	};
+
+	const contentLoaded = writable(false);
+
+  	onMount(() => {
+    	setTimeout(() => {
+      		contentLoaded.set(true);
+    	}, 0);
+  	});
 </script>
 
 <SearchPage {title} on:search={onSearch}>
