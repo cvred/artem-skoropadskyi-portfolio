@@ -30,6 +30,7 @@
     	}, 0);
   	});
 
+
 </script>
 
 <div class="{`preloader ${$contentLoaded ? 'hidden' : ''}`}">
@@ -45,7 +46,7 @@
 >
 	<div class="md:flex-1 gap-10px">
 		<MainTitle classes="md:text-left ">{name} {lastName}</MainTitle>
-		<SubTitle class="text-[var(--tertiary-text)]  text-center md:text-left text-[1.2em] font-extralight" color="gray">{location}</SubTitle>
+		<SubTitle class="text-[var(--tertiary-text)]  text-center md:text-left text-[1.2em] font-extralight" >{location.city}, {location.country}</SubTitle>
 		<p class="text-[var(--tertiary-text)]  text-center md:text-left text-[1.2em] font-extralight">
 			{description}
 		</p>

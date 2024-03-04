@@ -52,7 +52,10 @@ export const HOME: HomePageParams = {
 	title: 'Home',
 	name: 'Artem',
 	lastName: 'Skropadskyi',
-	location: 'Warsaw, Poland',
+	location: {
+		city: 'Warsaw',
+		country: 'Poland'
+	}, 
 	description:
 		'Hey there, I\'m Artem, a 21-year-old Computer Science student currently studying at NTUU KPI. Welcome to my portfolio website, where I\'ll be sharing my projects and experiences. Feel free to explore my work and skills. If you have any inquiries or would like to connect, all the necessary links are provided below.',
 	links: [
