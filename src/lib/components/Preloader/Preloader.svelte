@@ -39,22 +39,22 @@
 
   .preloader__box span:nth-of-type(1) {
     border-radius: 48% 52% 68% 32% / 46% 40% 60% 54%;
-    box-shadow: 0px 0px 10px 0px rgba(136, 7, 126, 0.8),
-      inset 0px 0px 10px 0px rgba(136, 7, 126, 0.8);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1),
+      inset 0px 0px 10px 0px rgba(0, 0, 0, 1);
   }
 
   .preloader__box span:nth-of-type(2) {
     animation-direction: reverse;
     border-radius: 27% 73% 64% 36% / 69% 39% 61% 31%;
-    box-shadow: 0px 0px 10px 0px rgba(251, 184, 53, 0.5),
-      inset 0px 0px 10px 0px rgba(251, 184, 53, 0.5);
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 1),
+      inset 0px 0px 10px 0px rgba(255, 255, 255, 1);
   }
 
   .preloader__box span:nth-of-type(3) {
     animation-duration: 3s;
     border-radius: 58% 42% 30% 70% / 38% 59% 41% 62%;
-    box-shadow: 0px 0px 10px 0px rgba(253, 100, 67, 0.7),
-      inset 0px 0px 10px 0px rgba(253, 100, 67, 0.7);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5),
+      inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
   }
 
   @keyframes preloader {

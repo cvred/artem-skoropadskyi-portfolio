@@ -148,12 +148,10 @@ export function convertDateForIos(date: string): Date {
 
     const formattedDate = new Date(dateStringWithTimestamp);
 
-    console.log('Input date:', formattedDate);
-
     return formattedDate;
 }
 
-export function isiOS() {
+function isiOS() {
 	if (typeof window !== 'undefined') {
 		
 	  const userAgent = window.navigator.userAgent;

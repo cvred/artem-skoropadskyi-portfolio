@@ -21,27 +21,27 @@ const MY_PROJECTS: Array<Project> = [
 		screenshots: [
 			{
 				label: 'gameplay screenshot 1',
-				src: 'ftk2/1.png',
+				src: 'ftk-2/1.png',
 			},
 			{
 				label: 'gameplay screenshot 2',
-				src: 'ftk2/2.png',
+				src: 'ftk-2/2.png',
 			},
 			{
 				label: 'gameplay screenshot 3',
-				src: 'ftk2/3.jpg',
+				src: 'ftk-2/3.jpg',
 			},
 			{
 				label: 'gameplay screenshot 4',
-				src: 'ftk2/4.jpg',
+				src: 'ftk-2/4.jpg',
 			},
 			{
 				label: 'gameplay screenshot 5',
-				src: 'ftk2/5.jpg',
+				src: 'ftk-2/5.jpg',
 			},
 			{
 				label: 'credits',
-				src: 'ftk2/6.jpg',
+				src: 'ftk-2/6.jpg',
 			},
 		]
 	},
@@ -61,15 +61,15 @@ const MY_PROJECTS: Array<Project> = [
 		screenshots: [
 			{
 				label: 'gameplay screenshot 1',
-				src: 'dxgame/1.png',
+				src: 'dx-game/1.png',
 			},
 			{
 				label: 'gameplay screenshot 2',
-				src: 'dxgame/3.png',
+				src: 'dx-game/3.png',
 			},
 			{
 				label: 'UI screenshot 1',
-				src: 'dxgame/2.png',
+				src: 'dx-game/2.png',
 			}
 		]
 	},
@@ -89,23 +89,23 @@ const MY_PROJECTS: Array<Project> = [
 		screenshots: [
 			{
 				label: 'Testing Screenshot 1',
-				src: 'faceedu/1.jpg',
+				src: 'face-edu/1.jpg',
 			},
 			{
 				label: 'Testing Screenshot 2',
-				src: 'faceedu/2.jpg',
+				src: 'face-edu/2.jpg',
 			},
 			{
 				label: 'Testing Screenshot 3',
-				src: 'faceedu/3.jpg',
+				src: 'face-edu/3.jpg',
 			},
 			{
 				label: 'Confidence 0.5',
-				src: 'faceedu/4.jpg',
+				src: 'face-edu/4.jpg',
 			},
 			{
 				label: 'Confidence 0.01',
-				src: 'faceedu/5.jpg',
+				src: 'face-edu/5.jpg',
 			}
 		]
 	}	
