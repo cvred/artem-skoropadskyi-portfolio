@@ -153,12 +153,11 @@ export function convertDateForIos(date: string): Date {
 
 function isiOS() {
 	if (typeof window !== 'undefined') {
-		
-	  const userAgent = window.navigator.userAgent;
-	  return /iPhone|iPad|iPod/i.test(userAgent);
+	  return /iPhone|iPad|iPod/i.test(window.navigator.userAgent);
 	}
+
 	return false;
-  }
+}
 
 export function getDate(date: any){
 	if (isiOS()) {
