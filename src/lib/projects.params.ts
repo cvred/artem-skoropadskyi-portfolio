@@ -2,6 +2,8 @@ import Assets from './data/assets';
 import { getSkills } from './skills.params';
 import type { Project } from './types';
 
+import {getDate} from './utils/helpers';
+
 const MY_PROJECTS: Array<Project> = [
 	{
 		slug: 'ftk-2',
@@ -14,8 +16,8 @@ const MY_PROJECTS: Array<Project> = [
 		logo: Assets.ForTheKing2,
 		name: 'For The King II',
 		period: {
-			from: new Date('July 2023'),
-			to: new Date('November 2023')
+			from: getDate('July 2023'),
+			to: getDate('November 2023')
 		},
 		skills: getSkills('jira', 'bitbucket', 'unity', 'cs'),
 		type: 'Commercial Project',
@@ -57,8 +59,8 @@ const MY_PROJECTS: Array<Project> = [
 		logo: Assets.DirectX,
 		name: 'Shooter Game DX',
 		period: {
-			from: new Date('December 2023'),
-			to: new Date('March 2024')
+			from: getDate('December 2023'),
+			to: getDate('March 2024')
 		},
 		skills: getSkills('cpp', 'dx', 'vs'),
 		type: 'Educational Project',
@@ -88,8 +90,8 @@ const MY_PROJECTS: Array<Project> = [
 		logo: Assets.Tensorflow,
 		name: 'Mask detecting ML',
 		period: {
-			from: new Date('November 2023'),
-			to: new Date('December 2023')
+			from: getDate('November 2023'),
+			to: getDate('December 2023')
 		},
 		skills: getSkills('python', 'tensorflow', 'numpy', 'opencv'),
 		type: 'Educational Project',

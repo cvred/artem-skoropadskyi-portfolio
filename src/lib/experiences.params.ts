@@ -2,6 +2,8 @@ import Assets from './data/assets';
 import { getSkills } from './skills.params';
 import { ContractType, type Experience } from './types';
 
+import {getDate} from './utils/helpers';
+
 const MY_EXPERIENCES: Array<Experience> = [
 	{
 		slug: 'ue-dev-intern',
@@ -10,7 +12,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		contract: ContractType.Internship,
 		type: 'Intern Gameplay Programmer',
 		location: 'Remote',
-		period: { from: new Date('March 2022'), to: new Date('September 2022') },
+		period: { from: getDate('March 2022'), to: getDate('September 2022') },
 		skills: getSkills('ue', 'vs', 'cpp', 'vulkan', 'opengl', 'blueprints', 'github', 'math'),
 		name: 'Unreal Engine Developer',
 		color: 'midnightblue',
@@ -25,7 +27,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		contract: ContractType.FullTime,
 		type: 'Junior Gameplay Programmer',
 		location: 'Remote',
-		period: { from: new Date('September 2022'), to: new Date('Feburary 2023') },
+		period: { from: getDate('September 2022'), to: getDate('Feburary 2023') },
 		skills: getSkills('ue', 'vs', 'cpp', 'vulkan', 'opengl', 'blueprints', 'jira', ' bitbucket', 'github', 'math'),
 		name: 'Unreal Engine Developer',
 		color: 'midnightblue',
@@ -40,7 +42,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		contract: ContractType.PartTime,
 		type: 'FQA Services',
 		location: 'Warsaw, Poland',
-		period: { from: new Date('June 2023'), to: new Date('November 2023')},
+		period: { from: getDate('June 2023'), to: getDate('November 2023')},
 		skills: getSkills('jira', 'bitbucket' ,'unity', 'cs'),
 		name: 'FQA Technichian',
 		color: 'mediumblue',

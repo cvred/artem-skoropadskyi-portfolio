@@ -2,6 +2,8 @@ import dayjs from 'dayjs';
 import duration from 'dayjs/plugin/duration';
 import type { Item, Skill } from '$lib/types';
 
+//import browserEnv from 'browser-env';
+
 dayjs.extend(duration);
 
 export const countMonths = (from: Date, to: Date = new Date()): number => {
@@ -113,4 +115,22 @@ function doesQueryExistInItemOrAttributes(
 	} else {
 		return item.toString().toLowerCase().includes(query);
 	}
+}
+
+function convertDateForIos(date: any) {
+    var arr = date.split(/[- :]/);
+    date = new Date(arr[0], arr[1]-1, arr[2], arr[3], arr[4], arr[5]);
+    return date;
+}
+
+function isiOS() {
+	const userAgent = window.navigator.userAgent;
+	return /iPhone|iPad|iPod/i.test(userAgent);
+  }
+
+export function getDate(date: any){
+	if (isiOS()) {
+        return convertDateForIos(date);
+    }
+    return new Date(date);
 }
