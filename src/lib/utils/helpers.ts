@@ -117,19 +117,48 @@ function doesQueryExistInItemOrAttributes(
 	}
 }
 
-function convertDateForIos(date: any) {
-    var arr = date.split(/[- :]/);
-    date = new Date(arr[0], arr[1]-1, arr[2], arr[3], arr[4], arr[5]);
-    return date;
+export function convertDateForIos(date: string): Date {
+    const months: { [key: string]: string } = {
+        'January': '01',
+        'February': '02',
+        'March': '03',
+        'April': '04',
+        'May': '05',
+        'June': '06',
+        'July': '07',
+        'August': '08',
+        'September': '09',
+        'October': '10',
+        'November': '11',
+        'December': '12'
+    };
+
+    const [monthName, year] = date.split(' ');
+
+    const month = months[monthName];
+    if (!month) {
+        console.error('Invalid month:', monthName);
+        return new Date('Invalid Date');
+    }
+
+    const dateString = `${year}-${month}-01`;
+
+    const timestamp = '10:30:00';
+    const dateStringWithTimestamp = `${dateString} ${timestamp}`;
+
+    const formattedDate = new Date(dateStringWithTimestamp);
+
+    console.log('Input date:', formattedDate);
+
+    return formattedDate;
 }
 
 export function isiOS() {
-	// Check if window object exists to ensure code runs in a browser environment
 	if (typeof window !== 'undefined') {
+		
 	  const userAgent = window.navigator.userAgent;
 	  return /iPhone|iPad|iPod/i.test(userAgent);
 	}
-	// Return false if window object is not available
 	return false;
   }
 

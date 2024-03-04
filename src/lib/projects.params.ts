@@ -15,10 +15,7 @@ const MY_PROJECTS: Array<Project> = [
 		links: [{ to: 'https://store.steampowered.com/app/1676840/For_The_King_II/', label: 'Steam' }],
 		logo: Assets.ForTheKing2,
 		name: 'For The King II',
-		period: {
-			from: getDate('July 2023'),
-			to: getDate('November 2023')
-		},
+		period: { from: getDate('July 2023'), to: getDate('November 2023') },
 		skills: getSkills('jira', 'bitbucket', 'unity', 'cs'),
 		type: 'Commercial Project',
 		screenshots: [
@@ -58,10 +55,7 @@ const MY_PROJECTS: Array<Project> = [
 		links: [{ to: 'https://github.com/L1ghtboro/ShooterGame', label: 'GitHub' }],
 		logo: Assets.DirectX,
 		name: 'Shooter Game DX',
-		period: {
-			from: getDate('December 2023'),
-			to: getDate('March 2024')
-		},
+		period: { from: getDate('December 2023'), to: getDate('March 2024') },
 		skills: getSkills('cpp', 'dx', 'vs'),
 		type: 'Educational Project',
 		screenshots: [
@@ -89,10 +83,7 @@ const MY_PROJECTS: Array<Project> = [
 		links: [{ to: 'https://github.com/L1ghtboro/FaceTracking', label: 'GitHub' }],
 		logo: Assets.Tensorflow,
 		name: 'Mask detecting ML',
-		period: {
-			from: getDate('November 2023'),
-			to: getDate('December 2023')
-		},
+		period: { from: getDate('November 2023'), to: getDate('December 2023') },
 		skills: getSkills('python', 'tensorflow', 'numpy', 'opencv'),
 		type: 'Educational Project',
 		screenshots: [

@@ -27,7 +27,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		contract: ContractType.FullTime,
 		type: 'Junior Gameplay Programmer',
 		location: 'Remote',
-		period: { from: getDate('September 2022'), to: getDate('Feburary 2023') },
+		period: { from: getDate('September 2022'), to: getDate('February 2023') },
 		skills: getSkills('ue', 'vs', 'cpp', 'vulkan', 'opengl', 'blueprints', 'jira', ' bitbucket', 'github', 'math'),
 		name: 'Unreal Engine Developer',
 		color: 'midnightblue',
