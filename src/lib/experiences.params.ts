@@ -57,7 +57,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		contract: ContractType.Freelance,
 		type: 'Freelance Software Engineer',
 		location: 'Remote',
-		period: { from: new Date('August 2023'), to: new Date('November 2023')},
+		period: { from: getDate('August 2023'), to: getDate('November 2023')},
 		skills: getSkills('js', 'njs', 'webgl', '3js', 'rjs', 'mocha','cpp', 'opengl', 'github'),
 		name: 'C++ and Javascript Engineer',
 		color: 'mediumorchid',

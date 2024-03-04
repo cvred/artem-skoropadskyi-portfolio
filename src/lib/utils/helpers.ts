@@ -123,9 +123,14 @@ function convertDateForIos(date: any) {
     return date;
 }
 
-function isiOS() {
-	const userAgent = window.navigator.userAgent;
-	return /iPhone|iPad|iPod/i.test(userAgent);
+export function isiOS() {
+	// Check if window object exists to ensure code runs in a browser environment
+	if (typeof window !== 'undefined') {
+	  const userAgent = window.navigator.userAgent;
+	  return /iPhone|iPad|iPod/i.test(userAgent);
+	}
+	// Return false if window object is not available
+	return false;
   }
 
 export function getDate(date: any){
