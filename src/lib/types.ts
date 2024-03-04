@@ -9,6 +9,7 @@ export enum Platform {
 	Facebook = 'facebook',
 	Youtube = 'youtube',
 	Steam = 'steam',
+	ArtStation = 'artstation',
 }
 
 export type Icon = `i-${string}-${string}`;
@@ -91,6 +92,7 @@ export interface HomeLink {
 export interface HomePageParams extends PageParams {
 	name: string;
 	lastName: string;
+	location: string;
 	description: string;
 	links: Array<HomeLink>;
 	skills?: Array<Skill>;

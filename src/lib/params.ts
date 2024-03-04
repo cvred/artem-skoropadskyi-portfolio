@@ -43,6 +43,8 @@ export const getPlatfromIcon = (platform: Platform): Icons => {
 			return Icons.Youtube;
 		case Platform.Steam:
 			return Icons.Steam;
+		case Platform.ArtStation:
+			return Icons.ArtStation;
 	}
 };
 
@@ -50,8 +52,9 @@ export const HOME: HomePageParams = {
 	title: 'Home',
 	name: 'Artem',
 	lastName: 'Skropadskyi',
+	location: 'Warsaw, Poland',
 	description:
-		'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!',
+		'Hey there, I\'m Artem, a 21-year-old Computer Science student currently studying at NTUU KPI. Welcome to my portfolio website, where I\'ll be sharing my projects and experiences. Feel free to explore my work and skills. If you have any inquiries or would like to connect, all the necessary links are provided below.',
 	links: [
 		{ platform: Platform.GitHub, link: 'https://github.com/L1ghtboro' },
 		{
@@ -70,14 +73,18 @@ export const HOME: HomePageParams = {
 			platform: Platform.Email,
 			link: 'artem.skoropadskyi@gmail.com'
 		},
-		{
-			platform: Platform.Youtube,
-			link: 'https://www.youtube.com/channel/UC_Fif1QQvsIk_-BdL2jUVVw'
-		},
+		// {
+		// 	platform: Platform.Youtube,
+		// 	link: 'https://www.youtube.com/channel/UC_Fif1QQvsIk_-BdL2jUVVw'
+		// },
 		//{
 		//	platform: Platform.Facebook,
 		//	link: 'https://www.facebook.com'
 		//},
+		{
+			platform: Platform.ArtStation,
+			link: 'https://www.artstation.com/artemskoropadskii4'
+		},
 		{
 			platform: Platform.Steam,
 			link: 'https://steamcommunity.com/id/exedbaffer/'
