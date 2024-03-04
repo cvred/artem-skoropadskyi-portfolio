@@ -12,6 +12,6 @@ export const MY_EDUCATIONS: Array<Education> = [
 		period: { from: new Date('2020'), to: new Date('2024') },
 		shortDescription: '',
 		slug: 'bachelor-degree',
-		subjects: ['C++', 'Algorithm\'s', 'Python', 'Linear Algebra', 'Mathematical Analysis', 'Tensorflow', 'JavaScript', 'Mocha', 'ReactJS', 'GameTheory', 'Scrum & Agile', 'AI', 'English']
+		subjects: ['C++', 'Unreal Engine', 'Blueprints','Algorithm\'s', 'Python', 'Linear Algebra', 'Mathematical Analysis', 'Tensorflow', 'NumPY', 'OpenCV','JavaScript', 'Mocha', 'ReactJS', 'GameTheory', 'Scrum & Agile', 'AI', 'English']
 	}
 ];

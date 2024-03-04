@@ -129,6 +129,14 @@ const MY_SKILLS = [
 		name: 'Tensorflow'
 	}),	
 	s({
+		slug: 'opencv',
+		color: 'lime',
+		description: 
+			'',
+		logo: Assets.OpenCV,
+		name: 'OpenCV'
+	}),
+	s({
 		slug: 'illustrator',
 		color: 'orange',
 		description: 

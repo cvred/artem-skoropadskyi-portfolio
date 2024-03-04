@@ -76,7 +76,46 @@ const MY_PROJECTS: Array<Project> = [
 				src: 'dxgame/2.png',
 			}
 		]
-	}
+	},
+	{
+		slug: 'face-edu',
+		color: 'orange',
+		description:
+			'During my university studies, I embarked on a machine learning project aimed at detecting individuals in images with or without masks. Utilizing various models including CNN, VGG, MobileNetV2, and Xception, I explored different architectures to achieve optimal accuracy and performance. Among these, the Xception model demonstrated superior accuracy, while MobileNetV2 offered faster inference speed and lower parameter count compared to VGG and Xception. The project highlights my expertise in machine learning algorithms and showcases my ability to implement and evaluate different models for specific tasks.',
+		shortDescription:
+			'This is one of my machine learning projects during university studies.',
+		links: [{ to: 'https://github.com/L1ghtboro/FaceTracking', label: 'GitHub' }],
+		logo: Assets.Tensorflow,
+		name: 'Mask detecting ML',
+		period: {
+			from: new Date('November 2023'),
+			to: new Date('December 2023')
+		},
+		skills: getSkills('python', 'tensorflow', 'numpy', 'opencv'),
+		type: 'Educational Project',
+		screenshots: [
+			{
+				label: 'Testing Screenshot 1',
+				src: 'faceedu/1.jpg',
+			},
+			{
+				label: 'Testing Screenshot 2',
+				src: 'faceedu/2.jpg',
+			},
+			{
+				label: 'Testing Screenshot 3',
+				src: 'faceedu/3.jpg',
+			},
+			{
+				label: 'Confidence 0.5',
+				src: 'faceedu/4.jpg',
+			},
+			{
+				label: 'Confidence 0.01',
+				src: 'faceedu/5.jpg',
+			}
+		]
+	}	
 ];
 
 export default MY_PROJECTS;

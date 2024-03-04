@@ -84,6 +84,7 @@ const Assets = {
 	Mocha: a('mocha.svg'),
 	Math: a('math.svg'),
 	Tensorflow: a('tensorflow-1.svg'),
+	OpenCV: a('opencv.svg'),
 	University: a('kpi.svg'),
 	DragonsLake: a('dralake.svg'),
 	Testronic: a('testro.svg'),
