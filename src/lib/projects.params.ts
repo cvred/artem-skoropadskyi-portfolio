@@ -108,6 +108,26 @@ const MY_PROJECTS: Array<Project> = [
 				src: 'face-edu/5.jpg',
 			}
 		]
+	},
+	{
+		slug: 'ray-tracing-edu',
+		color: 'midnightblue',
+		description:
+			'This ray tracing program simulates the rendering of a scene containing a single sphere illuminated by a point light source. Instead of Sphere class we can use any i used it because it is simple to draw and process .Utilizing ray-sphere intersection calculations, it traces rays from each pixel in a 2D grid to determine if they intersect with the sphere. Upon intersection, the program computes the shading of the pixel based on the surface normal and the direction to the light source. Outputting the results in the PPM image format, the program dynamically selects the output file destination, either defaulting to "out.ppm" in the current directory or placing it in an "images/" directory if present. Through this process, the program showcases the foundational concepts of ray tracing in computer graphics, offering a glimpse into the generation of realistic images through ray-object interactions and light interactions. Note: repository was updated!',
+		shortDescription:
+			'This is one of mine try outs of understanding Ray Tracing works.',
+		links: [{ to: 'https://github.com/L1ghtboro/Simple-Ray-Tracing', label: 'GitHub' }],
+		logo: Assets.Cpp,
+		name: 'Simple Ray Tracing',
+		period: { from: getDate('May 2021'), to: getDate('May 03 2021') },
+		skills: getSkills('cpp', 'vs', 'math'),
+		type: 'Educational Project',
+		screenshots: [
+			{
+				label: 'Testing Screenshot 1',
+				src: 'ray-tracing-edu/1.png',
+			}
+		]
 	}	
 ];
 

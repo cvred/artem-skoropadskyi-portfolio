@@ -11,35 +11,35 @@ const MY_SKILLS = [
 	s({
 		slug: 'cpp',
 		color: 'lightblue',
-		description: 
-			`C++ has been my primary programming language since my school days. I began delving into it extensively and this journey led me to Dragon's Lake, where I initially joined as an Intern Unreal Engine Developer and eventually progressed to a Junior role. At Dragon's Lake, I honed my C++ skills significantly, particularly in the context of Unreal Engine development. My experience there allowed me to master C++ for Unreal Engine, leveraging it for various projects and gaining proficiency in areas such as game development and real-time rendering. During my tenure at Luxolis, although C++ wasn't the primary focus as the main development was centered around Three.js, I still utilized it for specific tasks. Notably, I contributed to the engineering and development of certain components of Computer-Aided Design (CAD) applications using OpenGL. Overall, my experience with C++ spans various domains, from game development in Unreal Engine to CAD applications using OpenGL, showcasing my versatility and adaptability with the language.`,
+		description:
+			`C++ has been my programming language of choice since I first started coding back in school. I coding more and searching for any experiances, and that eventually brought me to Dragon's Lake, where I began as an Intern Unreal Engine Developer and eventually grew into a Junior role. My time at Dragon's Lake significantly refining my C++ skills, especially within the realm of Unreal Engine development. I mastered using C++ for Unreal Engine, applying it to diverse projects and gaining expertise in game development and little of real-time rendering. While C++ wasn't the primary focus at Luxolis, where the main development revolved around Three.js, I still utilized it effectively. Overall, my experience with C++ consists a various areas, ranging from game development in Unreal Engine to CAD applications using OpenGL, demonstrating my versatility and ability to adapt and thrive with the language.`,
 		logo: Assets.Cpp,
 		name: 'C++'
-	}),
+	}),	  
 	s({
 		slug: 'ue',
 		color: 'pink',
 		description: 
-			`Unreal Engine holds a special place in my journey as it was one of the first game engines I discovered during my early university years. Since then, I've immersed myself in its ecosystem, progressively building my expertise. During my university studies, I delved into Unreal Engine, culminating in the development of my first project as part of my coursework. This experience allowed me to gain hands-on familiarity with both sides of Unreal Engine development – utilizing blueprints for rapid prototyping and harnessing the power of C++ for more intricate and optimized solutions. Working with Unreal Engine has been an enriching journey for me, enabling me to explore various aspects of game development and honing my skills in both visual scripting with blueprints and programming with C++.`,
+			`Unreal Engine holds a special place in my journey as it was one of the first game engines I discovered during my early university years. Since then, I've immersed myself in its ecosystem, progressively building my expertise. During my university studies, I delved into Unreal Engine, culminating in the development of my first project as part of my coursework. This experience allowed me to gain hands-on familiarity with both sides of Unreal Engine development \– utilizing blueprints for rapid prototyping and harnessing the power of C++ for more intricate and optimized solutions. Working with Unreal Engine has been an enriching journey for me, enabling me to explore various aspects of game development and honing my skills in both visual scripting with blueprints and programming with C++.`,
 		logo: Assets.UnrealEngine,
 		name: 'Unreal Engine'
-	}),
+	}),	  
 	s({
 		slug: 'blueprints',
 		color: 'blue',
 		description: 
-			`My journey with UE Blueprints began with the inception of my learning Unreal Engine. From the very start, I immersed myself in mastering the intricacies of Blueprints, gradually building my proficiency. During my tenure at Dragon's Lake, I had the opportunity to further solidify my skills in UE Blueprints. Working on various projects, I developed a strong foundation and gained the ability to visualize and implement complex scripts effortlessly using Blueprints. UE Blueprints have been an integral part of my Unreal Engine toolkit, enabling me to translate ideas into reality efficiently and effectively.`,
+			`My journey with UE Blueprints began with the inception of my learning Unreal Engine. From the very start, I immersed myself in mastering Blueprints, gradually building my proficiency. During my work at Dragon's Lake, I had the opportunity to further solidify my skills in UE Blueprints. Working on various projects, I developed a strong foundation and gained the ability to visualize and implement complex scripts effortlessly using Blueprints. UE Blueprints have been an integral part of my Unreal Engine toolkit, enabling me to translate ideas into reality efficiently and effectively.`,
 		logo: Assets.Blueprints,
 		name: 'UE Blueprints'
 	}),	
 	s({
 		slug: 'cs',
 		color: 'purple',
-		description: 
-			`My proficiency in C# extends particularly to scripting for Unity, where I have honed my skills in developing some scripts for it. Additionally, I possess moderate expertise in coding and architecting server-client solutions using C#. During my tenure as an QA Technician for Testronic on "For The King 2", I diligently identified and resolved issues to enhance the gaming experience. This project provided me with hands-on experience in troubleshooting and implementing fixes.`,
+		description:
+			`C# is mine like called go-to language, especially for Unity scripting. I've built several scripts for the game engine and have a good understanding of coding and architecting server-client solutions using C#. As a QA Technician at Testronic, I helped improve the gaming experience for 'For The King 2' by finding and fixing bugs. This project gave me valuable hands-on experience in troubleshooting and implementing solutions.`,
 		logo: Assets.Csharp,
 		name: 'C#'
-	}),
+	}),	  
 	s({
 		slug: 'unity',
 		color: 'gray',
@@ -60,42 +60,42 @@ const MY_SKILLS = [
 		slug: 'opengl',
 		color: 'cyan',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			`I've been expanding my knowledge of graphics libraries by exploring OpenGL. I've used it in educational projects, which has given me a solid understanding of its capabilities, including the GLSL shading language.`,
 		logo: Assets.OpenGL,
 		name: 'OpenGL'
-	}),
+	}),	  
 	s({
 		slug: 'dx',
 		color: 'black',
-		description: 
-			`Microsoft DirectX has been an area of exploration for me as a game developer seeking to expand my knowledge in graphic libraries. I've delved into DirectX as an educational endeavor, working on projects and familiarizing myself with HLSL and various options that DirectX can offer.`,
+		description:
+			`I've been expanding my knowledge of graphics libraries by exploring Microsoft DirectX. I've used it in educational projects, familiarizing myself with its features like HLSL and its various functionalities. While I'm still learning, mine experiance says that it's a valuable tool for creating graphics-intensive applications.`,
 		logo: Assets.DirectX,
 		name: 'Microsoft DirectX'
-	}),	
+	}),
 	s({
 		slug: 'vulkan',
 		color: 'red',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			`I've been expanding my knowledge of graphics libraries by exploring Vulkan API. While I haven't delved deeply into it yet, I'm interested in learning more about its capabilities in the future.`,
 		logo: Assets.Vulkan,
 		name: 'Vulkan API'
-	}),
+	}),	  
 	s({
 		slug: 'bitbucket',
 		color: 'blue',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			`My experience with Bitbucket has grown significantly through my work at Dragon's Lake and Testronic. I find it to be a valuable tool for managing code repositories. It allows me to easily track changes, collaborate with teammates, and access previous versions of projects. This makes it easier to maintain a clear history and iterate on ideas effectively.`,
 		logo: Assets.Bitbucket,
 		name: 'Bitbucket'
-	}),
+	}),  
 	s({
 		slug: 'jira',
 		color: 'blue',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			`Jira has become a core part of my workflow, serving both as a bug reporting tool and a task management system. It helps me track bugs efficiently, assign tasks clearly to different team members, and monitor progress towards project objectives. This enhances collaboration and ensures everyone stays focused on achieving our goals.`,
 		logo: Assets.Jira,
 		name: 'Jira'
-	}),
+	}),	  
 	s({
 		slug: 'github',
 		color: 'purple',
@@ -115,10 +115,10 @@ const MY_SKILLS = [
 	s({
 		slug: 'numpy',
 		color: 'dodgerblue',
-		description: 
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+		description:
+			`NumPy is kind of like the Swiss Army knife of Python for numerical computing. It tackles all sorts of math problems, from simple calculations to complex simulations. During my university days, it became my go-to tool whenever I needed to build a math-based application. It saved me countless hours and helped me focus on understanding the concepts, not the tedious calculations.`,
 		logo: Assets.Numpy,
-		name: 'NumPY'
+		name: 'NumPy'
 	}),
 	s({
 		slug: 'tensorflow',
@@ -131,11 +131,11 @@ const MY_SKILLS = [
 	s({
 		slug: 'opencv',
 		color: 'lime',
-		description: 
-			'',
+		description:
+			`OpenCV is like the foundation for building computer vision applications. It's a popular library used by many and has been helpful for me in developing vision-based projects. From creating robot vision systems using ROS to implementing computer vision tasks in Python for machine learning, OpenCV has been a valuable tool in my toolbox.`,
 		logo: Assets.OpenCV,
 		name: 'OpenCV'
-	}),
+	}),	  
 	s({
 		slug: 'illustrator',
 		color: 'orange',
@@ -196,7 +196,7 @@ const MY_SKILLS = [
 		slug: 'mocha',
 		color: 'brown',
 		description: 
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			'Mocha is my favorite testing framework, which I extensively used both during my university studies and while working with Luxolis. It offers a robust set of features and provides a smooth testing experience, making it an indispensable tool in my development journey.',
 		logo: Assets.Mocha,
 		name: 'Mocha'
 	}),

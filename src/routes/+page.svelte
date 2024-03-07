@@ -30,7 +30,6 @@
     	}, 0);
   	});
 
-
 </script>
 
 <div class="{`preloader ${$contentLoaded ? 'hidden' : ''}`}">
