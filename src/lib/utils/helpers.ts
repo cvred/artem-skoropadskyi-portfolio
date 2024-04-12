@@ -165,3 +165,16 @@ export function getDate(date: any){
     }
     return new Date(date);
 }
+
+export function calculateAge(date: Date){
+	const today = new Date();
+	const birthDate = new Date(date);
+	let age = today.getFullYear() - birthDate.getFullYear();
+	const monthDiff = today.getMonth() - birthDate.getMonth();
+	const dayDiff = (today.getDay() + 1) - birthDate.getDay();
+	//console.log(age, monthDiff, dayDiff);
+	if(monthDiff < 0 || (monthDiff === 0 && dayDiff)){
+		age--;
+	}
+	return age;
+}
