@@ -113,7 +113,7 @@ export const SKILLS: SkillsPageParams = {
 
 export const RESUME: ResumePageParams = {
 	title: 'Resumé',
-	item: './Skoropadskyi_Resume.pdf'
+	item: './Artem Skoropadskyi Resume.pdf'
 };
 
 export const SEARCH: SearchPageParams = {

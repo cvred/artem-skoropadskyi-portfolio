@@ -204,7 +204,7 @@ const MY_SKILLS = [
 		slug: 'rjs',
 		color: 'cyan',
 		description: 
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			`React JS is a JavaScript library that I've utilized extensively in various projects. Its component-based architecture and virtual DOM make it efficient for building user interfaces. I've leveraged React to create dynamic and interactive web applications, improving user experience and development efficiency.`,
 		logo: Assets.ReactJs,
 		name: 'React JS'
 	}),
@@ -212,7 +212,7 @@ const MY_SKILLS = [
 		slug: '3js',
 		color: 'black',
 		description: 
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			'Three.js is a powerful JavaScript library used for creating 3D graphics in web browsers. I\'ve utilized Three.js to develop immersive 3D experiences, such as virtual tours, interactive simulations, and visualizations. Its robust features and documentation have enabled me to push the boundaries of web-based 3D graphics.',
 		logo: Assets.Threejs,
 		name: 'Three.js'
 	}),
@@ -220,7 +220,7 @@ const MY_SKILLS = [
 		slug: 'webgl',
 		color: 'crimson',
 		description: 
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			'WebGL is a JavaScript API for rendering interactive 3D and 2D graphics within any compatible web browser. I\'ve used WebGL to create visually stunning and high-performance graphics for web applications. Its low-level access to the GPU allows for the creation of complex visual effects and animations, enhancing the overall user experience.',
 		logo: Assets.WebGL,
 		name: 'WebGL'
 	}),
@@ -228,7 +228,7 @@ const MY_SKILLS = [
 		slug: 'html',
 		color: 'orange',
 		description: 
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			'HTML is the standard markup language for creating web pages and web applications. I have a strong command of HTML and have used it extensively to structure web content, create forms, embed multimedia, and enhance accessibility. HTML serves as the foundation for building robust and well-structured web projects.',
 		logo: Assets.HTML,
 		name: 'HTML'
 	}),
@@ -236,7 +236,7 @@ const MY_SKILLS = [
 		slug: 'css',
 		color: 'blue',
 		description: 
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			'CSS is a style sheet language used for describing the presentation of a document written in HTML. I have a proficient understanding of CSS and have utilized it to style and layout web pages, create responsive designs, and implement animations and transitions. CSS plays a crucial role in enhancing the visual appeal and user experience of web applications.',
 		logo: Assets.CSS,
 		name: 'CSS'
 	}),
