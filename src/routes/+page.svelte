@@ -30,15 +30,11 @@
     	}, 0);
   	});
 
-</script>
+	window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3F2CHBZGN1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-3F2CHBZGN1');
+  	gtag('config', 'G-3F2CHBZGN1');
 </script>
 
 <div class="{`preloader ${$contentLoaded ? 'hidden' : ''}`}">
