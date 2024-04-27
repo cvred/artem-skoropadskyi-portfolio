@@ -28,14 +28,6 @@
     	setTimeout(() => {
       		contentLoaded.set(true);
     	}, 0);
-
-		// Execute Google Analytics script only on the client side
-		if (typeof window !== 'undefined') {
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-			gtag('config', 'G-3F2CHBZGN1');
-		}
   	});	
 </script>
 
