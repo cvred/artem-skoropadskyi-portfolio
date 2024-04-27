@@ -34,7 +34,7 @@
   	function gtag(){dataLayer.push(arguments);}
   	gtag('js', new Date());
 
-  	gtag('config', 'G-3F2CHBZGN1');
+  	gtag('config', 'G-3F2CHBZGN1'); // Google tag
 </script>
 
 <div class="{`preloader ${$contentLoaded ? 'hidden' : ''}`}">
