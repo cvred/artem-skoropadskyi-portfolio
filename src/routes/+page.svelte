@@ -28,13 +28,15 @@
     	setTimeout(() => {
       		contentLoaded.set(true);
     	}, 0);
-  	});
 
-	window.dataLayer = window.dataLayer || [];
-  	function gtag(){dataLayer.push(arguments);}
-  	gtag('js', new Date());
-
-  	gtag('config', 'G-3F2CHBZGN1'); // Google tag
+		// Execute Google Analytics script only on the client side
+		if (typeof window !== 'undefined') {
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-3F2CHBZGN1');
+		}
+  	});	
 </script>
 
 <div class="{`preloader ${$contentLoaded ? 'hidden' : ''}`}">
