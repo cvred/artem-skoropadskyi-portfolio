@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
   	import { writable } from 'svelte/store';
 
+	import Analytics from '$lib/components/Analytics/Analytics.svelte'
 	import Preloader from '$lib/components/Preloader/Preloader.svelte';
 	import Carrousel from '$lib/components/Carrousel/Carrousel.svelte';
 	import Icon from '$lib/components/Icon/Icon.svelte';
@@ -29,20 +30,13 @@
       		contentLoaded.set(true);
     	}, 0);
   	});
-
-	onMount(() => {
-		if (typeof window !== 'undefined') {
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-			gtag('config', 'G-3F2CHBZGN1');
-		}
-	});
 </script>
 
 <div class="{`preloader ${$contentLoaded ? 'hidden' : ''}`}">
   <Preloader />
 </div>
+
+<Analytics />
 
 <svelte:head>
 	<title>{useTitle(title, TITLE_SUFFIX)}</title>
