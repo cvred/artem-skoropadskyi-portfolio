@@ -28,7 +28,15 @@
     	setTimeout(() => {
       		contentLoaded.set(true);
     	}, 0);
-  	});	
+  	});
+
+	// Wrap Google Analytics code in a check for window to ensure it only runs in the client-side environment
+	if (typeof window !== 'undefined') {
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-3F2CHBZGN1');
+	}	
 </script>
 
 <div class="{`preloader ${$contentLoaded ? 'hidden' : ''}`}">

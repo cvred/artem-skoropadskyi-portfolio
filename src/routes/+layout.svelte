@@ -5,14 +5,6 @@
 	import { onHydrated, theme } from '$lib/stores/theme';
 	import { onMount } from 'svelte';
 
-	// Execute Google Analytics script only on the client side
-	if (typeof window !== 'undefined') {
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'G-3F2CHBZGN1');
-	}
-
 	// ? moved to +layout.server.ts : will be deleted when we make sure that everything is alright
 	// export const prerender = true;
 
