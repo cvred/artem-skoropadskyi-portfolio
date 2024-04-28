@@ -31,12 +31,12 @@
   	});
 
 	// Wrap Google Analytics code in a check for window to ensure it only runs in the client-side environment
-	if (typeof window !== 'undefined') {
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'G-3F2CHBZGN1');
-	}	
+	//if (typeof window !== 'undefined') {
+	//	window.dataLayer = window.dataLayer || [];
+	//	function gtag(){dataLayer.push(arguments);}
+	//	gtag('js', new Date());
+	//	gtag('config', 'G-3F2CHBZGN1');
+	//}	
 </script>
 
 <div class="{`preloader ${$contentLoaded ? 'hidden' : ''}`}">
@@ -47,27 +47,31 @@
 	<title>{useTitle(title, TITLE_SUFFIX)}</title>
 </svelte:head>
 
-<div
-	class="col self-center flex-1 md:flex-row md:slef-stretch justify-center lg:justify-between items-center p-y-0px p-x-10px"
->
-	<div class="md:flex-1 gap-10px">
-		<MainTitle classes="md:text-left ">{name} {lastName}</MainTitle>
-		<SubTitle class="text-[var(--tertiary-text)]  text-center md:text-left text-[1.2em] font-extralight" >{location.city}, {location.country}</SubTitle>
-		<p class="text-[var(--tertiary-text)]  text-center md:text-left text-[1.2em] font-extralight">
-			{description}
-		</p>
-		<div class="row justify-center md:justify-start p-y-15px p-x-0px gap-2">
-			{#each links as link}
-				<a
-					class="decoration-none"
-					href={`${isEmail(link.link) ? 'mailto:' : ''}${link.link}`}
-					target="_blank"
-					rel="noreferrer"
-				>
-					<Icon icon={getPlatfromIcon(link.platform)} color={'var(--accent-text)'} size={'20px'} />
-				</a>
-			{/each}
-		</div>
-	</div>
-	<Carrousel items={skills ?? MY_SKILLS} />
+{#if $contentLoaded}
+<div class="col self-center flex-1 md:flex-row md:slef-stretch justify-center lg:justify-between items-center p-y-0px p-x-10px">
+  <div class="md:flex-1 gap-10px">
+    <MainTitle classes="md:text-left ">{name} {lastName}</MainTitle>
+    <SubTitle class="text-[var(--tertiary-text)]  text-center md:text-left text-[1.2em] font-extralight" >{location.city}, {location.country}</SubTitle>
+    <p class="text-[var(--tertiary-text)]  text-center md:text-left text-[1.2em] font-extralight">
+      {description}
+    </p>
+    <div class="row justify-center md:justify-start p-y-15px p-x-0px gap-2">
+      {#each links as link}
+        <a
+          class="decoration-none"
+          href={`${isEmail(link.link) ? 'mailto:' : ''}${link.link}`}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Icon icon={getPlatfromIcon(link.platform)} color={'var(--accent-text)'} size={'20px'} />
+        </a>
+      {/each}
+    </div>
+  </div>
+  <Carrousel items={skills ?? MY_SKILLS} />
 </div>
+{:else}
+<div class="preloader">
+  <Preloader />
+</div>
+{/if}
