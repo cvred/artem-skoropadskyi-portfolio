@@ -1,5 +1,4 @@
 <script lang="ts">
-	import Analytics from '$lib/components/Analytics/Analytics.svelte';
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
 	import { SEARCH } from '$lib/params';
@@ -64,8 +63,6 @@
 		);
 	}
 </script>
-
-<Analytics />
 
 <SearchPage {title} on:search={(e) => (query = e.detail.search)}>
 	<div class="flex flex-col items-stretch gap-10 p-2" />
