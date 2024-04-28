@@ -1,10 +1,13 @@
 <script>
+	import Analytics from '$lib/components/Analytics/Analytics.svelte';
 	import Chip from '$lib/components/Chip/Chip.svelte';
 	import CommonPage from '$lib/components/CommonPage.svelte';
 	import { RESUME } from '$lib/params';
 
 	const { item, title } = RESUME;
 </script>
+
+<Analytics />
 
 <CommonPage {title}>
 	<div class="resume" download>

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Analytics from '$lib/components/Analytics/Analytics.svelte';
 	import Chip from '$lib/components/Chip/Chip.svelte';
 	import ProjectCard from '$lib/components/ProjectCard/ProjectCard.svelte';
 	import SearchPage from '$lib/components/SearchPage.svelte';
@@ -69,6 +70,8 @@
 		}
 	});
 </script>
+
+<Analytics />
 
 <SearchPage {title} on:search={onSearch}>
 	<div class="projects-filters">

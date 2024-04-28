@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Analytics from '$lib/components/Analytics/Analytics.svelte';
 	import ExperienceCard from '$lib/components/ExperienceCard/ExperienceCard.svelte';
 	import UIcon from '$lib/components/Icon/UIcon.svelte';
 	import SearchPage from '$lib/components/SearchPage.svelte';
@@ -26,6 +27,8 @@
 		);
 	};
 </script>
+
+<Analytics />
 
 <SearchPage {title} on:search={onSearch}>
 	<div class="col items-center relative mt-10 flex-1">

@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
   	import { writable } from 'svelte/store';
 
+	import Analytics from '$lib/components/Analytics/Analytics.svelte';
 	import Card from '$lib/components/Card/Card.svelte';
 	import { base } from '$app/paths';
 	import { SKILLS } from '$lib/params';
@@ -33,6 +34,8 @@
     	}, 0);
   	});
 </script>
+
+<Analytics />
 
 <SearchPage {title} on:search={onSearch}>
 	{#if result.length === 0}
