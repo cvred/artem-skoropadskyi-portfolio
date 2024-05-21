@@ -15,6 +15,12 @@
 			<a href={item}>
 				<Chip size={'1.25em'}>Download</Chip>
 			</a>
+
+			<p class = "or-text"> or </p>
+
+			<a href="https://www.dropbox.com/scl/fi/v4wvbd3b3plbpfuuv6jbu/Artem-Skoropadskyi-Resume.pdf?rlkey=53m6j5tlky4w9d5rxun1szdxb&st=rdxini2o&dl=0" target="_blank" class="dropbox-button">
+				<Chip>View on Dropbox</Chip>
+			</a>
 		{:else}
 			<Chip>Ooops! no CV at the moment.</Chip>
 		{/if}
@@ -22,13 +28,17 @@
 </CommonPage>
 
 <style lang="scss">
-	.resume {
-		display: flex;
-		justify-content: center;
-		margin-top: 20px;
+    .resume {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
 
-		& > a {
-			color: inherit;
-		}
-	}
+    .or-text {
+        margin: 10px;
+        font-size: 16px;
+    }
+
 </style>
