@@ -15,7 +15,7 @@ const MY_PROJECTS: Array<Project> = [
 		links: [{ to: 'https://store.steampowered.com/app/1676840/For_The_King_II/', label: 'Steam' }],
 		logo: Assets.ForTheKing2,
 		name: 'For The King II',
-		period: { from: getDate('July 2023'), to: getDate('November 2023') },
+		period: { from: getDate('July 01 2023'), to: getDate('November 02 2023') },
 		skills: getSkills('jira', 'bitbucket', 'unity', 'cs'),
 		type: 'Commercial Project',
 		screenshots: [
@@ -107,6 +107,43 @@ const MY_PROJECTS: Array<Project> = [
 				label: 'Confidence 0.01',
 				src: 'face-edu/5.jpg',
 			}
+		]
+	},
+	{
+		
+		slug: 'afterglow-game',
+		color: 'hotpink',
+		description:
+			'My first game made on Unreal Engine 4, contains one simple quest and one boss fight',
+		shortDescription:
+			'Small game powered by Unreal Engine',
+		links: [{ to: 'https://github.com/L1ghtboro/AP_Coursework', label: 'GitHub' }],
+		logo: Assets.UnrealEngine,
+		name: 'Afterglow',
+		period: { from: getDate('March 2021'), to: getDate('July 2021') },
+		skills: getSkills('cpp', 'ue'),
+		type: 'Educational Project',
+		screenshots: [
+			{
+				label: 'Gameplay Screenshot 1',
+				src: 'afterglow-game/1.png',
+			},
+			{
+				label: 'Gameplay Screenshot 2',
+				src: 'afterglow-game/2.png',
+			},
+			{
+				label: 'Gameplay Screenshot 3',
+				src: 'afterglow-game/4.png',
+			},
+			{
+				label: 'Gameplay Screenshot 4',
+				src: 'afterglow-game/5.png',
+			},
+			{
+				label: 'Asset testout Screenshot 1',
+				src: 'afterglow-game/3.jpg',
+			},
 		]
 	},
 	{
