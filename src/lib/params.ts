@@ -59,7 +59,8 @@ export const HOME: HomePageParams = {
 		country: 'Poland'
 	}, 
 	description:
-		`Hey there, I\'m Artem, a ${calculateAge(new Date('2003-3-4'))}-year-old Computer Science student currently studying at NTUU KPI. Welcome to my portfolio website, where I\'ll be sharing my projects and experiences. Feel free to explore my work and skills. If you have any inquiries or would like to connect, all the necessary links are provided below. Hope to connect with you on LinkedIn!`,
+		`Hey there, I\'m Artem, a ${calculateAge(new Date('2003-3-4'))}-year-old Computer Science student currently studying at NTUU KPI. Welcome to my portfolio website, where I\'ll be sharing my projects and experiences. Feel free to explore my work and 
+		skills. If you have any inquiries or would like to connect, all the necessary links are provided below. Hope to connect with you on LinkedIn! If the media content (such as images, videos or resume) hasn't loaded properly, please refresh the webpage to resolve the issue.`,
 	links: [
 		{ platform: Platform.GitHub, link: 'https://github.com/L1ghtboro' },
 		{

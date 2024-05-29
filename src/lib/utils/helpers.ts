@@ -173,17 +173,36 @@ export function calculateAge(date: Date){
 	return age;
 }
 
-export function checkPageLoaded(folder: string){
- 	if (typeof window === 'undefined') {
-		return '';
-	}
+export function checkPageLoaded(folder: string): string {
+    if (typeof window === 'undefined') {
+        return '';
+    }
 
-	const pageLoadedFlag = 'pageLoaded';
+    const pageLoadedFlag = 'pageLoaded';
+    const firstLoadFlag = 'firstLoad';
+    const previousResultKey = 'previousResult';
 
-	if (sessionStorage.getItem(pageLoadedFlag)) {
-		return folder;
-	} else {
-		sessionStorage.setItem(pageLoadedFlag, 'true');
-		return '';
-	}
+    const isFirstLoad = !sessionStorage.getItem(firstLoadFlag);
+
+    if (isFirstLoad) {
+        // If it's the first load, set the firstLoad flag
+        sessionStorage.setItem(firstLoadFlag, 'true');
+    }
+
+    const hasPageLoaded = sessionStorage.getItem(pageLoadedFlag) === 'true';
+
+    if (!hasPageLoaded || isFirstLoad) {
+        console.log('Page has not been loaded or is the first load');
+        sessionStorage.setItem(pageLoadedFlag, 'true');
+        sessionStorage.setItem(previousResultKey, folder);
+        return '';
+    } else {
+        console.log('Page has been refreshed or already loaded');
+        return sessionStorage.getItem(previousResultKey) || folder;
+    }
 }
+
+
+
+
+
