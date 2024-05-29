@@ -179,30 +179,20 @@ export function checkPageLoaded(folder: string): string {
     }
 
     const pageLoadedFlag = 'pageLoaded';
-    const firstLoadFlag = 'firstLoad';
-    const previousResultKey = 'previousResult';
-
-    const isFirstLoad = !sessionStorage.getItem(firstLoadFlag);
-
-    if (isFirstLoad) {
-        // If it's the first load, set the firstLoad flag
-        sessionStorage.setItem(firstLoadFlag, 'true');
-    }
 
     const hasPageLoaded = sessionStorage.getItem(pageLoadedFlag) === 'true';
 
-    if (!hasPageLoaded || isFirstLoad) {
-        console.log('Page has not been loaded or is the first load');
+	let counterKey = 'counter';
+
+	let counter = parseInt(sessionStorage.getItem(counterKey) || '0', 10);
+	sessionStorage.setItem(counterKey, (++counter).toString());
+
+    if (!hasPageLoaded || counter < 21) {
+        console.log('Page has not been loaded');
         sessionStorage.setItem(pageLoadedFlag, 'true');
-        sessionStorage.setItem(previousResultKey, folder);
         return '';
     } else {
-        console.log('Page has been refreshed or already loaded');
-        return sessionStorage.getItem(previousResultKey) || folder;
+        console.log('Page has already been loaded');
+        return folder;
     }
 }
-
-
-
-
-

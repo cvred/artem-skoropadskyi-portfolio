@@ -8,7 +8,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 	{
 		slug: 'ue-dev-intern',
 		company: 'Dragon\'s Lake',
-		description: 'job desc',
+		description: 'Worked remotely, collaborating closely to develop immersive experiences using Unreal Engine and C++ for gameplay programming. Managed bug resolution, implemented new game features. During the internship, I collaborated closely with project teams to develop and optimize immersive gameplay experiences using Unreal Engine and C++. I played a key role in resolving bugs and addressing technical issues, ensuring the stability and performance of game projects. I utilized version control systems such as Git to manage source code efficiently, ensuring collaboration and code integrity. Tasks were managed and progress tracked using Jira, effectively prioritizing and addressing development objectives. I communicated effectively with team members to discuss project requirements, provide updates, and coordinate efforts for successful project delivery. Throughout the internship, I demonstrated strong problem-solving skills, quickly identifying and resolving technical challenges to keep projects on track and meet deadlines.',
 		contract: ContractType.Internship,
 		type: 'Intern Gameplay Programmer',
 		location: 'Remote',
@@ -23,7 +23,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 	{
 		slug: 'ue-dev',
 		company: 'Dragon\'s Lake',
-		description: 'job desc',
+		description: 'Worked remotely, collaborating closely to develop immersive experiences using Unreal Engine and C++ for gameplay programming. Managed bug resolution, implemented new game features. In this role, I continued to collaborate closely with project teams to develop and optimize immersive gameplay experiences using Unreal Engine and C++. I played a key role in resolving bugs and addressing technical issues, ensuring the stability and performance of game projects. I utilized version control systems such as Git and Bitbucket to manage source code efficiently, ensuring collaboration and code integrity. Tasks were managed and progress tracked using Jira, effectively prioritizing and addressing development objectives. I communicated effectively with team members to discuss project requirements, provide updates, and coordinate efforts for successful project delivery. Throughout the role, I demonstrated strong problem-solving skills, quickly identifying and resolving technical challenges to keep projects on track and meet deadlines.',
 		contract: ContractType.FullTime,
 		type: 'Junior Gameplay Programmer',
 		location: 'Remote',
@@ -53,7 +53,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 	{
 		slug: 'software-contract-junior',
 		company: 'Luxolis',
-		description: 'job desc',
+		description: 'As a Freelance Software Engineer, I leveraged JavaScript frameworks like Three.js to create immersive 3D experiences, while harnessing C++ for performance-critical components tailored to the CAD environment. I collaborated closely with Luxolis\'s AI team to integrate new bug fixes into the CAD system, ensuring seamless interaction between the 3D environment and AI algorithms. I contributed significantly to the continuous enhancement of Luxolis\'s CAD technology stack through innovative problem solving, guaranteeing a high-quality end product for users. I designed and implemented dynamic lighting systems that significantly improved rendering performance and visual fidelity. Additionally, I developed custom shaders and materials to achieve realistic material interactions and effects in the CAD environment, and optimized memory management strategies, resulting in a 30% reduction in memory usage and improved overall system stability.',
 		contract: ContractType.Freelance,
 		type: 'Freelance Software Engineer',
 		location: 'Remote',
