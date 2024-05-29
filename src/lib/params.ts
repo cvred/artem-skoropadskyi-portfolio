@@ -3,6 +3,7 @@ import MY_EXPERIENCES from './experiences.params';
 import MY_PROJECTS from './projects.params';
 import MY_SKILLS from './skills.params';
 import {calculateAge} from './utils/helpers'
+import { checkPageLoaded } from './utils/helpers';
 import {
 	Platform,
 	type HomePageParams,
@@ -113,7 +114,7 @@ export const SKILLS: SkillsPageParams = {
 
 export const RESUME: ResumePageParams = {
 	title: 'Resumé',
-	item: './Artem Skoropadskyi Resume.pdf'
+	item: `${checkPageLoaded('./')}Artem Skoropadskyi Resume.pdf`
 };
 
 export const SEARCH: SearchPageParams = {

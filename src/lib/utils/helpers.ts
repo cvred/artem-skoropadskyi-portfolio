@@ -172,3 +172,18 @@ export function calculateAge(date: Date){
 	let age = Math.floor((today - birthDate)/1000 /60 /60 /24 /365);
 	return age;
 }
+
+export function checkPageLoaded(folder: string){
+ 	if (typeof window === 'undefined') {
+		return '';
+	}
+
+	const pageLoadedFlag = 'pageLoaded';
+
+	if (sessionStorage.getItem(pageLoadedFlag)) {
+		return folder;
+	} else {
+		sessionStorage.setItem(pageLoadedFlag, 'true');
+		return '';
+	}
+}

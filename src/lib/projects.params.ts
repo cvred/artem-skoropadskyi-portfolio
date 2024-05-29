@@ -4,6 +4,8 @@ import type { Project } from './types';
 
 import {getDate} from './utils/helpers';
 
+import { checkPageLoaded } from './utils/helpers';
+
 const MY_PROJECTS: Array<Project> = [
 	{
 		slug: 'ftk-2',
@@ -21,27 +23,27 @@ const MY_PROJECTS: Array<Project> = [
 		screenshots: [
 			{
 				label: 'gameplay screenshot 1',
-				src: 'ftk-2/1.png',
+				src: `${checkPageLoaded('ftk-2/')}1.png`,
 			},
 			{
 				label: 'gameplay screenshot 2',
-				src: 'ftk-2/2.png',
+				src: `${checkPageLoaded('ftk-2/')}2.png`,
 			},
 			{
 				label: 'gameplay screenshot 3',
-				src: 'ftk-2/3.jpg',
+				src: `${checkPageLoaded('ftk-2/')}3.jpg`,
 			},
 			{
 				label: 'gameplay screenshot 4',
-				src: 'ftk-2/4.jpg',
+				src: `${checkPageLoaded('ftk-2/')}4.jpg`,
 			},
 			{
 				label: 'gameplay screenshot 5',
-				src: 'ftk-2/5.jpg',
+				src: `${checkPageLoaded('ftk-2/')}5.jpg`,
 			},
 			{
 				label: 'credits',
-				src: 'ftk-2/6.jpg',
+				src: `${checkPageLoaded('ftk-2/')}6.jpg`,
 			},
 		]
 	},
@@ -61,15 +63,15 @@ const MY_PROJECTS: Array<Project> = [
 		screenshots: [
 			{
 				label: 'gameplay screenshot 1',
-				src: 'dx-game/1.png',
+				src: `${checkPageLoaded('dx-game/')}1.png`,
 			},
 			{
 				label: 'gameplay screenshot 2',
-				src: 'dx-game/3.png',
+				src: `${checkPageLoaded('dx-game/')}3.png`,
 			},
 			{
 				label: 'UI screenshot 1',
-				src: 'dx-game/2.png',
+				src: `${checkPageLoaded('dx-game/')}2.png`,
 			}
 		]
 	},
@@ -89,23 +91,23 @@ const MY_PROJECTS: Array<Project> = [
 		screenshots: [
 			{
 				label: 'Testing Screenshot 1',
-				src: 'face-edu/1.jpg',
+				src: `${checkPageLoaded('face-edu/')}1.jpg`,
 			},
 			{
 				label: 'Testing Screenshot 2',
-				src: 'face-edu/2.jpg',
+				src: `${checkPageLoaded('face-edu/')}2.jpg`,
 			},
 			{
 				label: 'Testing Screenshot 3',
-				src: 'face-edu/3.jpg',
+				src: `${checkPageLoaded('face-edu/')}3.jpg`,
 			},
 			{
 				label: 'Confidence 0.5',
-				src: 'face-edu/4.jpg',
+				src: `${checkPageLoaded('face-edu/')}4.jpg`,
 			},
 			{
 				label: 'Confidence 0.01',
-				src: 'face-edu/5.jpg',
+				src: `${checkPageLoaded('face-edu/')}5.jpg`,
 			}
 		]
 	},
@@ -126,23 +128,23 @@ const MY_PROJECTS: Array<Project> = [
 		screenshots: [
 			{
 				label: 'Gameplay Screenshot 1',
-				src: 'afterglow-game/1.png',
+				src: `${checkPageLoaded('afterglow-game/')}1.png`,
 			},
 			{
 				label: 'Gameplay Screenshot 2',
-				src: 'afterglow-game/2.png',
+				src: `${checkPageLoaded('afterglow-game/')}2.png`,
 			},
 			{
 				label: 'Gameplay Screenshot 3',
-				src: 'afterglow-game/4.png',
+				src: `${checkPageLoaded('afterglow-game/')}4.png`,
 			},
 			{
 				label: 'Gameplay Screenshot 4',
-				src: 'afterglow-game/5.png',
+				src: `${checkPageLoaded('afterglow-game/')}5.png`,
 			},
 			{
 				label: 'Asset testout Screenshot 1',
-				src: 'afterglow-game/3.jpg',
+				src: `${checkPageLoaded('afterglow-game/')}3.jpg`,
 			},
 		]
 	},
@@ -162,7 +164,7 @@ const MY_PROJECTS: Array<Project> = [
 		screenshots: [
 			{
 				label: 'Testing Screenshot 1',
-				src: 'ray-tracing-edu/1.png',
+				src: `${checkPageLoaded('ray-tracing-edu/')}1.png`,
 			}
 		]
 	}	
