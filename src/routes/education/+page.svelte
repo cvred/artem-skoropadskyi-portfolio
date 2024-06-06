@@ -9,8 +9,11 @@
 	import { EDUCATION } from '$lib/params';
 	import type { Education } from '$lib/types';
 	import { getTimeDiff } from '$lib/utils';
+	import { checkPageLoaded} from '$lib/utils/helpers';
 
 	const { items, title } = EDUCATION;
+
+	const item = `${checkPageLoaded('./')}Diploma-transcription.sdsds`
 
 	let search = '';
 
@@ -30,56 +33,67 @@
 			);
 		});
 	};
+
 </script>
 
 <Analytics />
 
+<style>
+	.hidden-link {
+		text-decoration: none;
+		color: inherit;
+		display: block; /* Ensures it covers the child content */
+	}
+</style>
+
 <SearchPage {title} {search} on:search={onSearch}>
-	<div class="col items-center relative mt-10 flex-1">
-		{#if result.length === 0}
-			<div class="p-5 col-center gap-3 m-y-auto text-[var(--accent-text)] flex-1">
-				<UIcon icon="i-carbon-development" classes="text-3.5em" />
-				<p class="font-300">Could not find anything...</p>
-			</div>
-		{:else}
-			<div
-				class="w-[0.5px] hidden lg:flex top-0 bottom-0 py-50px bg-[var(--border)] absolute rounded"
-			/>
-			{#each result as education, index (education.slug)}
-				<div
-					class={`flex ${
-						index % 2 !== 0 ? 'flex-row' : 'flex-row-reverse'
-					} relative items-center w-full my-[10px]`}
-				>
-					<div class="flex-1 hidden lg:flex" />
-					<div class="hidden lg:inline p-15px bg-[var(--main)] rounded">
-						<UIcon icon="i-carbon-condition-point" />
-					</div>
-					<div class="col flex-1 items-stretch">
-						<Card>
-							<div class="flex-1 col gap-2 items-stretch">
-								<img
-									src={getAssetURL(education.logo)}
-									alt={education.organization}
-									height="50"
-									width="50"
-									class="mb-5"
-								/>
-								<div class="text-[1.3em]">{education.degree}</div>
-								<div>{education.organization}</div>
-								<div class="text-[var(--accent-text)] text-[0.9em] font-200 mb-2">
-									{education.location} · {getTimeDiff(education.period.from, education.period.to)}
-								</div>
-								<div class="row flex-wrap gap-1">
-									{#each education.subjects as subject}
-										<Chip>{subject}</Chip>
-									{/each}
-								</div>
-							</div>
-						</Card>
-					</div>
+	<a href={item} class = 'hidden-link'>
+		<div class="col items-center relative mt-10 flex-1">
+			{#if result.length === 0}
+				<div class="p-5 col-center gap-3 m-y-auto text-[var(--accent-text)] flex-1">
+					<UIcon icon="i-carbon-development" classes="text-3.5em" />
+					<p class="font-300">Could not find anything...</p>
 				</div>
-			{/each}
-		{/if}
-	</div>
+			{:else}
+				<div
+					class="w-[0.5px] hidden lg:flex top-0 bottom-0 py-50px bg-[var(--border)] absolute rounded"
+				/>
+				{#each result as education, index (education.slug)}
+					<div
+						class={`flex ${
+							index % 2 !== 0 ? 'flex-row' : 'flex-row-reverse'
+						} relative items-center w-full my-[10px]`}
+					>
+						<div class="flex-1 hidden lg:flex" />
+						<div class="hidden lg:inline p-15px bg-[var(--main)] rounded">
+							<UIcon icon="i-carbon-condition-point" />
+						</div>
+						<div class="col flex-1 items-stretch">
+							<Card>
+								<div class="flex-1 col gap-2 items-stretch">
+									<img
+										src={getAssetURL(education.logo)}
+										alt={education.organization}
+										height="50"
+										width="50"
+										class="mb-5"
+									/>
+									<div class="text-[1.3em]">{education.degree}</div>
+									<div>{education.organization}</div>
+									<div class="text-[var(--accent-text)] text-[0.9em] font-200 mb-2">
+										{education.location} · {getTimeDiff(education.period.from, education.period.to)}
+									</div>
+									<div class="row flex-wrap gap-1">
+										{#each education.subjects as subject}
+											<Chip>{subject}</Chip>
+										{/each}
+									</div>
+								</div>
+							</Card>
+						</div>
+					</div>
+				{/each}
+			{/if}
+		</div>
+	</a>
 </SearchPage>
