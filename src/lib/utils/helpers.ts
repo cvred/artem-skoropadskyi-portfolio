@@ -167,8 +167,8 @@ export function getDate(date: any){
 }
 
 export function calculateAge(date: Date){
-	const today = new Date();
-	const birthDate = new Date(date);
+	const today : any = new Date();
+	const birthDate : any = new Date(date);
 	let age = Math.floor((today - birthDate)/1000 /60 /60 /24 /365);
 	return age;
 }
@@ -187,7 +187,7 @@ export function checkPageLoaded(folder: string): string {
 	let counter = parseInt(sessionStorage.getItem(counterKey) || '0', 10);
 	sessionStorage.setItem(counterKey, (++counter).toString());
 
-    if (!hasPageLoaded || counter < 21) {
+    if (!hasPageLoaded || counter < 22) {
         console.log('Page has not been loaded');
         sessionStorage.setItem(pageLoadedFlag, 'true');
         return '';

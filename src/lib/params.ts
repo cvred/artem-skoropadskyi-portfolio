@@ -123,6 +123,7 @@ export const SEARCH: SearchPageParams = {
 };
 
 export const EDUCATION: EducationPageParams = {
+	item: `${checkPageLoaded('./')}test.txt`,
 	items: MY_EDUCATIONS,
 	title: 'Education'
 };

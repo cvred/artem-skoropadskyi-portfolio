@@ -11,9 +11,7 @@
 	import { getTimeDiff } from '$lib/utils';
 	import { checkPageLoaded} from '$lib/utils/helpers';
 
-	const { items, title } = EDUCATION;
-
-	const item = `${checkPageLoaded('./')}Diploma-transcription.sdsds`
+	const { item, items, title } = EDUCATION;
 
 	let search = '';
 
