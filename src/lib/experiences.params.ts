@@ -39,7 +39,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		slug: 'qa-tech',
 		company: 'Testronic',
 		description: 'Worked as an FQA Technician at Testronic, there I specialized providing QA services for game development projects, notably contributing to the development of For The King 2. During this work experience my expertise extended to working closely with Unity Engine, employing C# programming language, and efficiently utilizing Jira for project management and issue tracking.',
-		contract: ContractType.PartTime,
+		contract: ContractType.FullTime,
 		type: 'FQA Services',
 		location: 'Warsaw, Poland',
 		period: { from: getDate('June 2023'), to: getDate('November 2023')},
