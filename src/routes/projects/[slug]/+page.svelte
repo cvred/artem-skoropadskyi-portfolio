@@ -28,6 +28,8 @@
 			: undefined;
 
 	$: computedTitle = data.project ? `${data.project.name} - ${title}` : title;
+
+	$: isVideo = screenshot ? /\.(mp4|webm|ogg)$/.test(screenshot.src) : false;
 </script>
 
 <TabTitle title={computedTitle} />
@@ -93,9 +95,7 @@
 					<CardDivider />
 				</div>
 				{#if screenshots.length > 0}
-					<div
-						class="px-10px grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 m-t-10 "
-					>
+					<div class="px-10px grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 m-t-10">
 						{#each screenshots as item, index}
 							<!-- svelte-ignore a11y-no-static-element-interactions -->
 							<div
@@ -104,12 +104,19 @@
 								on:keydown
 								on:keypress
 								on:keyup
-								on:keyup
 							>
-								<div
-									class="screenshot aspect-video bg-contain w-100% cursor-pointer"
-									style={`background-image: url(${item.src});`}
-								/>
+								{#if /\.(mp4|webm|ogg)$/.test(item.src)}
+									<div class="screenshot aspect-video bg-contain w-100% cursor-pointer">
+										<video class="w-full h-full object-cover">
+											<source src={item.src} type="video/mp4" />
+										</video>
+									</div>
+								{:else}
+									<div
+										class="screenshot aspect-video bg-contain w-100% cursor-pointer"
+										style={`background-image: url(${item.src});`}
+									/>
+								{/if}
 								<p class="text-[var(--tertiary-text)] font-300">{item.label}</p>
 							</div>
 						{/each}

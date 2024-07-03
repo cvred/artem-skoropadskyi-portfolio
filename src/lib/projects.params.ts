@@ -8,8 +8,28 @@ import { checkPageLoaded } from './utils/helpers';
 
 const MY_PROJECTS: Array<Project> = [
 	{
+		slug: 'diploma',
+		color: 'skyblue',
+		description:
+			'As a key contributor to this bachelor project, I developed and integrated advanced AI algorithms within Unreal Engine 5 to enhance the intelligent behavior of virtual agents in 3D game environments. This project focuses on the implementation of machine learning techniques, particularly using MobileNet, to accurately detect and identify objects in 3D space. Additionally, I designed and tested navigation algorithms enabling drones to efficiently navigate and avoid obstacles, ensuring smooth gameplay and heightened realism. The project also involved creating a dynamic game environment, integrating neural networks for real-time decision-making, and conducting comprehensive testing to validate the effectiveness of these AI methods.',
+		shortDescription:
+			'AI project for Unreal Engine 5, enhancing 3D game realism through advanced object detection and drone navigation.',
+		links: [{ to: 'https://github.com/L1ghtboro/backend-navigation-py', label: 'Github-AI' }, { to: 'https://github.com/L1ghtboro/game-navigation-ue', label: 'Github-Game' }],
+		logo: Assets.UnrealEngine,
+		name: 'AI integration for Unreal Engine',
+		period: { from: getDate('December 01 2023'), to: getDate('June 12 2024') },
+		skills: getSkills('jira', 'ue', 'cpp', 'tensorflow', 'opencv', 'python'),
+		type: 'Educational Project',
+		screenshots: [
+			{
+				label: 'AI trying to find pink cube',
+				src: `${checkPageLoaded('diploma/')}1.mp4`,
+			}
+		]
+	},
+	{
 		slug: 'ftk-2',
-		color: '#5e95e3',
+		color: 'darkblue',
 		description:
 			'As an QA Technician for Testronic, I\'ve been actively involved in the development of "For The King 2" diligently identifying and resolving issues to enhance the gaming experience. This project transports players into the enchanting yet perilous realm of Farul, where they embark on a journey to overthrow the despotic Queen Rozomon. With a campaign spanning over 30 hours of gameplay divided into 5 interconnected adventures, "For The King 2" offers a rogue-lite experience characterized by its easy-to-grasp mechanics and strategic depth. Players can choose from 12 unique character classes, collaborate in teams of up to four players, and engage in turn-based combat enriched by tactical positioning. With its procedurally generated maps and diverse environments ranging from lush forests to treacherous swamps, "For The King 2" promises an immersive and captivating gaming world for both seasoned adventurers and newcomers alike.',
 		shortDescription:

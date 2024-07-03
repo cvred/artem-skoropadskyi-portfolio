@@ -6,6 +6,8 @@
 	};
 
 	$: show = typeof screenshot !== 'undefined';
+
+	$: isVideo = screenshot ? /\.(mp4|webm|ogg)$/.test(screenshot.src) : false;
 </script>
 
 {#if show}
@@ -13,10 +15,8 @@
 	<div
 		class="fixed inset-0px top-51px bg-[#000000dd] col-center p-50px"
 		on:click={onClose}
-		on:click={(e) => e.stopPropagation()}
 		on:keydown
 		on:keypress
-		on:keyup
 		on:keyup
 	>
 		<!-- svelte-ignore a11y-no-static-element-interactions -->
@@ -26,19 +26,36 @@
 			on:keydown
 			on:keypress
 			on:keyup
-			on:keyup
 		>
-			<div
-				class="aspect-video col bg-contain w-100% rounded-xl bg-no-repeat bg-contains bg-center"
-				style={`background-image: url(${screenshot?.src});`}
-			>
-				<p
-					class="font-italic m-t-auto m-x-auto m-b-5 inline-flex bg-[var(--main-60)] border-solid border-1px border-[var(--border)] p-x-5 p-2 rounded-xl"
-				>
-					{screenshot?.label}
-				</p>
-			</div>
+			{#if isVideo}
+				<video class="w-full rounded-xl" controls>
+					<source src={screenshot?.src} type="video/mp4" />
+				</video>
+			{:else}
+				<div
+					class="aspect-video col bg-contain w-100% rounded-xl bg-no-repeat bg-contains bg-center"
+					style={`background-image: url(${screenshot?.src});`}
+				/>
+			{/if}
+			<p class="font-italic m-t-auto m-x-auto m-b-5 inline-flex bg-[var(--main-60)] border-solid border-1px border-[var(--border)] p-x-5 p-2 rounded-xl">
+				{screenshot?.label}
+			</p>
 			<p class="text-[var(--accent-text)] text-0.7em">Click outside the frame to close</p>
 		</div>
 	</div>
 {/if}
+
+<style lang="scss">
+	.aspect-video {
+		position: relative;
+		padding-top: 56.25%; /* 16:9 Aspect Ratio */
+	}
+
+	.aspect-video > * {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+</style>
