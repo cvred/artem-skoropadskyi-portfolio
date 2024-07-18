@@ -9,9 +9,9 @@ import { checkPageLoaded } from './utils/helpers';
 const MY_PROJECTS: Array<Project> = [
 	{
 		slug: 'diploma',
-		color: 'skyblue',
+		color: 'hotpink',
 		description:
-			'As a key contributor to this bachelor project, I developed and integrated advanced AI algorithms within Unreal Engine 5 to enhance the intelligent behavior of virtual agents in 3D game environments. This project focuses on the implementation of machine learning techniques, particularly using MobileNet, to accurately detect and identify objects in 3D space. Additionally, I designed and tested navigation algorithms enabling drones to efficiently navigate and avoid obstacles, ensuring smooth gameplay and heightened realism. The project also involved creating a dynamic game environment, integrating neural networks for real-time decision-making, and conducting comprehensive testing to validate the effectiveness of these AI methods.',
+			'For my bachelor\'s project, I was super involved in building smarter virtual characters for 3D games using Unreal Engine 5. Imagine bringing video game characters to life with cutting-edge AI! That\'s what I focused on. To be short about what been done: Spotting Objects in Games (UE based), Navigation for Drones, Building a Dynamic World',
 		shortDescription:
 			'AI project for Unreal Engine 5, enhancing 3D game realism through advanced object detection and drone navigation.',
 		links: [{ to: 'https://github.com/L1ghtboro/backend-navigation-py', label: 'Github-AI' }, { to: 'https://github.com/L1ghtboro/game-navigation-ue', label: 'Github-Game' }],
@@ -31,7 +31,7 @@ const MY_PROJECTS: Array<Project> = [
 		slug: 'ftk-2',
 		color: 'darkblue',
 		description:
-			'As an QA Technician for Testronic, I\'ve been actively involved in the development of "For The King 2" diligently identifying and resolving issues to enhance the gaming experience. This project transports players into the enchanting yet perilous realm of Farul, where they embark on a journey to overthrow the despotic Queen Rozomon. With a campaign spanning over 30 hours of gameplay divided into 5 interconnected adventures, "For The King 2" offers a rogue-lite experience characterized by its easy-to-grasp mechanics and strategic depth. Players can choose from 12 unique character classes, collaborate in teams of up to four players, and engage in turn-based combat enriched by tactical positioning. With its procedurally generated maps and diverse environments ranging from lush forests to treacherous swamps, "For The King 2" promises an immersive and captivating gaming world for both seasoned adventurers and newcomers alike.',
+			'In my role as a Quality Assurance Technician at Testronic, I have been significantly involved in the development of "For The King 2." My primary focus has been on identifying and resolving issues to ensure a polished and enjoyable gaming experience for players. "For The King 2" transports players to the captivating yet perilous realm of Farul. Here, they embark on a challenging quest to overthrow the tyrannical Queen Rozomon. The campaign offers over 30 hours of engaging gameplay, divided into five interconnected adventures. This rogue-lite experience combines easy-to-learn mechanics with strategic depth, providing a rewarding challenge for players of all skill levels.',
 		shortDescription:
 			'Project that I\'ve been working as FQA technichian, finding issues and implementing fixes.',
 		links: [{ to: 'https://store.steampowered.com/app/1676840/For_The_King_II/', label: 'Steam' }],
@@ -76,10 +76,10 @@ const MY_PROJECTS: Array<Project> = [
 			'Project I\'ve worked at Luxolis.',
 		links: [{ to: '', label: '' }],
 		logo: Assets.Luxolis,
-		name: 'Luxolis CAD.',
+		name: 'Luxolis CAD',
 		period: { from: getDate('August 2023'), to: getDate('November 2023') },
 		skills: getSkills('js', 'cpp', 'rjs', 'webgl'),
-		type: 'Educational Project',
+		type: 'Commercial Project',
 		screenshots: [
 			{
 				label: 'CAD Screenshot 1',
@@ -93,7 +93,7 @@ const MY_PROJECTS: Array<Project> = [
 		description:
 			'I developed a DirectX shooting game as part of my education, utilizing the provided library. The game features simple 3D graphics and simple shooting gameplay mechanics. Players are challenged to aim and shoot targets within the game environment, showcasing technical proficiency with DirectX. This project highlights my ability to apply theoretical knowledge in a practical context and demonstrates my passion for game development.',
 		shortDescription:
-			'This is mine project on DirectX.',
+			'This is educational project on DirectX. I was learning how we render objects on non engine base.',
 		links: [{ to: 'https://github.com/L1ghtboro/ShooterGame', label: 'GitHub' }],
 		logo: Assets.DirectX,
 		name: 'Shooter Game DX',
@@ -119,7 +119,7 @@ const MY_PROJECTS: Array<Project> = [
 		slug: 'face-edu',
 		color: 'orange',
 		description:
-			'During my university studies, I embarked on a machine learning project aimed at detecting individuals in images with or without masks. Utilizing various models including CNN, VGG, MobileNetV2, and Xception, I explored different architectures to achieve optimal accuracy and performance. Among these, the Xception model demonstrated superior accuracy, while MobileNetV2 offered faster inference speed and lower parameter count compared to VGG and Xception. The project highlights my expertise in machine learning algorithms and showcases my ability to implement and evaluate different models for specific tasks.',
+			'In my university studies, I undertook a machine learning project focused on object detection. The project aimed to develop a system capable of identifying individuals in images, with a specific emphasis on whether they were wearing masks or not. I explored various convolutional neural network (CNN) architectures, including VGG, MobileNetV2, and Xception. This approach allowed me to evaluate the impact of different network structures on both accuracy and performance. Ultimately, the Xception model achieved the highest degree of accuracy in detecting individuals with and without masks. However, the MobileNetV2 model offered a more efficient solution with faster processing speeds and a lower number of parameters compared to VGG and Xception.',
 		shortDescription:
 			'This is one of my machine learning projects during university studies.',
 		links: [{ to: 'https://github.com/L1ghtboro/FaceTracking', label: 'GitHub' }],
