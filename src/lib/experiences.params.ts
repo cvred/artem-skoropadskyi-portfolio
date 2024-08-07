@@ -10,7 +10,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		company: 'Dragon\'s Lake',
 		description: 'Worked remotely, collaborating closely to develop immersive experiences using Unreal Engine and C++ for gameplay programming. Managed bug resolution, implemented new game features. During the internship, I collaborated closely with project teams to develop and optimize immersive gameplay experiences using Unreal Engine and C++. I played a key role in resolving bugs and addressing technical issues, ensuring the stability and performance of game projects. I utilized version control systems such as Git to manage source code efficiently, ensuring collaboration and code integrity. Tasks were managed and progress tracked using Jira, effectively prioritizing and addressing development objectives. I communicated effectively with team members to discuss project requirements, provide updates, and coordinate efforts for successful project delivery. Throughout the internship, I demonstrated strong problem-solving skills, quickly identifying and resolving technical challenges to keep projects on track and meet deadlines.',
 		contract: ContractType.Internship,
-		type: 'Intern Game Developer',
+		type: 'Game Development',
 		location: 'Remote',
 		period: { from: getDate('March 2022'), to: getDate('September 2022') },
 		skills: getSkills('ue', 'vs', 'cpp', 'opengl', 'blueprints', 'github', 'math'),
@@ -25,7 +25,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		company: 'Dragon\'s Lake',
 		description: 'Worked remotely, collaborating closely to develop immersive experiences using Unreal Engine and C++ for gameplay programming. Managed bug resolution, implemented new game features. In this role, I continued to collaborate closely with project teams to develop and optimize immersive gameplay experiences using Unreal Engine and C++. I played a key role in resolving bugs and addressing technical issues, ensuring the stability and performance of game projects. I utilized version control systems such as Git and Bitbucket to manage source code efficiently, ensuring collaboration and code integrity. Tasks were managed and progress tracked using Jira, effectively prioritizing and addressing development objectives. I communicated effectively with team members to discuss project requirements, provide updates, and coordinate efforts for successful project delivery. Throughout the role, I demonstrated strong problem-solving skills, quickly identifying and resolving technical challenges to keep projects on track and meet deadlines.',
 		contract: ContractType.FullTime,
-		type: 'Junior Game Developer',
+		type: 'Game Development',
 		location: 'Remote',
 		period: { from: getDate('September 2022'), to: getDate('February 2023') },
 		skills: getSkills('ue', 'vs', 'cpp', 'opengl', 'blueprints', 'jira', ' bitbucket', 'github', 'math'),
@@ -70,7 +70,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		company: 'schiza project',
 		description: 'As an Indie Game Developer, I wore multiple hats, excelling as a Gameplay Programmer, Tools Programmer, Code Reviewer, and Project Manager. I developed the main procedural generation logic, enhancing gameplay by creating diverse and dynamic in-game environments. Coded JSON libraries for asset storage and developed a proprietary framework for procedural generation, streamlining team workflows. Designed team workflows and generated tasks using the Game Design Document, facilitating efficient project management. Co-developed a custom shading system, improving the game\'s visual fidelity',
 		contract: ContractType.PartTime,
-		type: 'Game Developer',
+		type: 'Game Development',
 		location: 'Remote',
 		period: { from: getDate('June 2024')},
 		skills: getSkills('cpp', 'cs', 'ue', 'blueprints', 'jira', 'github', 'vs', 'math'),
@@ -79,6 +79,21 @@ const MY_EXPERIENCES: Array<Experience> = [
 		links: [],
 		logo: Assets.Unknown,
 		shortDescription: 'Worked at indie game team on Unreal Engine project'
+	},
+	{
+		slug: 'game-tester',
+		company: 'Lionbridge',
+		description: '',
+		contract: ContractType.FullTime,
+		type: 'FQA Services',
+		location: 'Warsaw',
+		period: { from: getDate('August 2024')},
+		skills: getSkills('jira'),
+		name: 'Game Tester',
+		color: 'aqua',
+		links: [],
+		logo: Assets.Unknown,
+		shortDescription: ''
 	}
 ];
 
