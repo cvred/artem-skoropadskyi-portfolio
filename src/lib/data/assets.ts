@@ -91,7 +91,9 @@ const Assets = {
 	Luxolis: a('luxolis.svg'),
 	Threejs: a('threejs.svg'),
 	WebGL: a('webgl.svg'),
-	ForTheKing2: a('ftk2.svg')
+	ForTheKing2: a('ftk2.svg'),
+	Lionbridge: a('lionbridge.svg'),
+	SchizaProject: a('schiza.svg')
 };
 
 export default Assets;

@@ -77,7 +77,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		name: 'Indie game developer',
 		color: 'hotpink',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.SchizaProject,
 		shortDescription: 'Worked at indie game team on Unreal Engine project'
 	},
 	{
@@ -92,7 +92,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		name: 'Game Tester',
 		color: 'aqua',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.Lionbridge,
 		shortDescription: ''
 	}
 ];
