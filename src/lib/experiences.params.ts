@@ -68,7 +68,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 	{
 		slug: 'game-dev-indie',
 		company: 'schiza project',
-		description: 'As an Indie Game Developer, I wore multiple hats, excelling as a Gameplay Programmer, Tools Programmer, Code Reviewer, and Project Manager. I developed the main procedural generation logic, enhancing gameplay by creating diverse and dynamic in-game environments. Coded JSON libraries for asset storage and developed a proprietary framework for procedural generation, streamlining team workflows. Designed team workflows and generated tasks using the Game Design Document, facilitating efficient project management. Co-developed a custom shading system, improving the game\'s visual fidelity',
+		description: 'As an Indie Game Developer, I wore multiple hats, excelling as a Gameplay Programmer, Tools Programmer, Code Reviewer, and Project Manager. I developed the main procedural generation logic, enhancing gameplay by creating diverse and dynamic in-game environments. Coded JSON libraries for asset storage and developed a proprietary framework for procedural generation, streamlining team workflows. Designed team workflows and generated tasks using the Game Design Document, facilitating efficient project management. Co-developed a custom shading system, improving the game\'s visual fidelity.',
 		contract: ContractType.PartTime,
 		type: 'Game Development',
 		location: 'Remote',
@@ -78,22 +78,22 @@ const MY_EXPERIENCES: Array<Experience> = [
 		color: 'hotpink',
 		links: [],
 		logo: Assets.SchizaProject,
-		shortDescription: 'Worked at indie game team on Unreal Engine project'
+		shortDescription: 'Worked with indie game team on an Unreal Engine project'
 	},
 	{
 		slug: 'game-tester',
 		company: 'Lionbridge',
-		description: '',
+		description: 'As a Game Tester at Lionbridge, my primary responsibility involved identifying, documenting, and reporting any potential game issues to developers, ensuring a smooth and polished experience for end users. I worked on an unreleased DLC project for a 2D game, focusing on Functional Quality Assurance (FQA) testing. This role allowed me to deepen my understanding of the game development cycle, particularly in reporting bugs, collaborating with developers, and improving communication between QA teams and clients. My work significantly contributed to enhancing the game\'s quality, utilizing tools like Jira for issue tracking and reporting.',
 		contract: ContractType.FullTime,
 		type: 'FQA Services',
 		location: 'Warsaw',
 		period: { from: getDate('August 2024')},
-		skills: getSkills('jira'),
+		skills: getSkills('steam'),
 		name: 'Game Tester',
-		color: 'aqua',
+		color: 'darkorange',
 		links: [],
 		logo: Assets.Lionbridge,
-		shortDescription: ''
+		shortDescription: 'Worked as Game Tester on unreleased DLC project for 2D game'
 	}
 ];
 
