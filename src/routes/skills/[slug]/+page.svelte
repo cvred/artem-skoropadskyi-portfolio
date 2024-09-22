@@ -76,7 +76,7 @@
 			<p class="font-300">Could not load skill data.</p>
 		</div>
 	{:else}
-		<div class="flex flex-col items-center overflow-x-hidden">
+		<!-- <div class="flex flex-col items-center overflow-x-hidden">
 			<Banner img={getAssetURL(data.skill.logo)}>
 				<MainTitle>{data.skill.name}</MainTitle>
 			</Banner>
@@ -108,6 +108,6 @@
 					{/each}
 				</div>
 			</div>
-		</div>
+		</div> -->
 	{/if}
 </div>
