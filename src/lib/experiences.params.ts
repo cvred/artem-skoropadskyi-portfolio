@@ -46,7 +46,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		skills: getSkills('jira', 'bitbucket' ,'unity', 'cs'),
 		name: 'FQA Technichian',
 		color: 'mediumblue',
-		links: [{to: 'https://store.steampowered.com/app/1676840/For_The_King_II/', label: 'steam'}],
+		links: [{to: 'https://store.steampowered.com/app/1676840/For_The_King_II/', label: 'Steam'}],
 		logo: Assets.Testronic,
 		shortDescription: 'Provided QA services for titles'
 	},
