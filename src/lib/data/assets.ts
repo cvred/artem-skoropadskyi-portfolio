@@ -93,7 +93,8 @@ const Assets = {
 	WebGL: a('webgl.svg'),
 	ForTheKing2: a('ftk2.svg'),
 	Lionbridge: a('lionbridge.svg'),
-	SchizaProject: a('schiza.svg')
+	SchizaProject: a('schiza.svg'),
+	Blasphemous2: a('blasphemous.png')
 };
 
 export default Assets;

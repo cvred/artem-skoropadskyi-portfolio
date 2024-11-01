@@ -8,6 +8,42 @@ import { checkPageLoaded } from './utils/helpers';
 
 const MY_PROJECTS: Array<Project> = [
 	{
+		slug: 'blasphemous2dlc',
+		color: 'black',
+		description:
+			'As a QA Analyst, my primary goal was to identify and report issues to ensure a smoother and more enjoyable user experience. I focused on finding bugs and suggesting improvements to help make the product more reliable and user-friendly.',
+		shortDescription:
+			'As a QA Analyst, I focused on identifying and reporting issues to improve product quality and create a better user experience.',
+		links: [{ to: 'https://store.steampowered.com/app/2879370/Blasphemous_2__Mea_Culpa/', label: 'Steam' }],
+		logo: Assets.Blasphemous2,
+		name: 'Blaspemous 2 Mea Culpa DLC',
+		period: { from: getDate('August 08 2024'), to: getDate('November 28 2024') },
+		skills: getSkills('qa'),
+		type: 'Commercial Project',
+		screenshots: [
+			{
+				label: 'Gameplay Screenshot 1',
+				src: `${checkPageLoaded('bl2-dlc/')}1.jpg`,
+			},
+			{
+				label: 'Gameplay Screenshot 2',
+				src: `${checkPageLoaded('bl2-dlc/')}2.jpg`,
+			},
+			{
+				label: 'Gameplay Screenshot 3',
+				src: `${checkPageLoaded('bl2-dlc/')}3.jpg`,
+			},
+			{
+				label: 'Gameplay Screenshot 4',
+				src: `${checkPageLoaded('bl2-dlc/')}4.jpg`,
+			},
+			{
+				label: 'Gameplay Screenshot 5',
+				src: `${checkPageLoaded('bl2-dlc/')}5.jpg`,
+			}
+		]
+	},
+	{
 		slug: 'diploma',
 		color: 'hotpink',
 		description:

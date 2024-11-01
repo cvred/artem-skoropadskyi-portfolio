@@ -187,7 +187,7 @@ export function checkPageLoaded(folder: string): string {
 	let counter = parseInt(sessionStorage.getItem(counterKey) || '0', 10);
 	sessionStorage.setItem(counterKey, (++counter).toString());
 
-    if (!hasPageLoaded || counter < 22) {
+    if (!hasPageLoaded || counter < 28) {
         console.log('Page has not been loaded');
         sessionStorage.setItem(pageLoadedFlag, 'true');
         return '';
