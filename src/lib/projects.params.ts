@@ -40,6 +40,10 @@ const MY_PROJECTS: Array<Project> = [
 			{
 				label: 'Gameplay Screenshot 5',
 				src: `${checkPageLoaded('bl2-dlc/')}5.jpg`,
+			},
+			{
+				label: 'Credits',
+				src: `${checkPageLoaded('bl2-dlc/')}6.png`,
 			}
 		]
 	},
