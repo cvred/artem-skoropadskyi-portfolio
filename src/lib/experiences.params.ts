@@ -89,7 +89,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		location: 'Warsaw',
 		period: { from: getDate('August 2024')},
 		skills: getSkills('steam'),
-		name: 'Game Tester',
+		name: 'QA Analyst',
 		color: 'darkorange',
 		links: [],
 		logo: Assets.Lionbridge,
