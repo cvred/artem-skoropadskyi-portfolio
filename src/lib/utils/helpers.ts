@@ -166,6 +166,12 @@ export function getDate(date: any){
     return new Date(date);
 }
 
+export function getCurrentDate(){
+    const currentDate = new Date();
+    const formattedDate = currentDate.toDateString();
+    return getDate(formattedDate);
+}
+
 export function calculateAge(date: Date){
 	const today : any = new Date();
 	const birthDate : any = new Date(date);

@@ -2,11 +2,45 @@ import Assets from './data/assets';
 import { getSkills } from './skills.params';
 import type { Project } from './types';
 
-import {getDate} from './utils/helpers';
+import {getDate, getCurrentDate} from './utils/helpers';
 
 import { checkPageLoaded } from './utils/helpers';
 
 const MY_PROJECTS: Array<Project> = [
+	{
+		slug: 'horizonsofachaea',
+		color: 'orange',
+		description:
+			'I will get updates when we will get MVP, currently sowy :D',
+		shortDescription:
+			'A commerical Indie Game Project in JRPG style with cinematic turn based fighting.',
+		links: [{ to: 'https://youtu.be/V-MTG9fuEJQ?si=F0LiULHiMkXlTx3Z', label: 'YouTube' }],
+		logo: Assets.HorizonsOfAchaea,
+		name: 'Horizons Of Achaea',
+		period: { from: getDate('November 27 2024'), to: getCurrentDate() },
+		skills: getSkills('blueprints', 'ue', 'cpp', 'vs'),
+		type: 'Commercial Project',
+		screenshots: [
+			
+		]
+	},
+	{
+		slug: 'newtypeprocedural',
+		color: 'pink',
+		description:
+			'A community-driven project aimed at exploring innovative approaches to procedural generation, specifically avoiding BSP (Binary Space Partitioning) algorithms. The goal is to generate unique, non-repetitive rooms based on a dynamic system where room properties are defined by JSON data. This project seeks to push the boundaries of procedural generation, offering a fresh and modular approach for creating diverse and unpredictable environments.',
+		shortDescription:
+			'A community based project to purpose a new way of procedural generation',
+		links: [{ to: 'https://youtu.be/uqaBoQoF16w', label: 'YouTube' }],
+		logo: Assets.UnrealEngine,
+		name: 'Procedural Generation Re-Purpose',
+		period: { from: getDate('July 27 2024'), to: getDate('October 27 2024') },
+		skills: getSkills('blueprints', 'ue', 'cpp', 'vs', 'jira'),
+		type: 'Community Project',
+		screenshots: [
+			
+		]
+	},
 	{
 		slug: 'blasphemous2dlc',
 		color: 'black',

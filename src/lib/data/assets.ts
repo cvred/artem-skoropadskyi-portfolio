@@ -94,7 +94,8 @@ const Assets = {
 	ForTheKing2: a('ftk2.svg'),
 	Lionbridge: a('lionbridge.svg'),
 	SchizaProject: a('schiza.svg'),
-	Blasphemous2: a('blasphemous.png')
+	Blasphemous2: a('blasphemous.png'),
+	HorizonsOfAchaea: a('HorizonsOfAchaea.ico')
 };
 
 export default Assets;
