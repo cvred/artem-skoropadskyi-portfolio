@@ -107,26 +107,26 @@ const MY_PROJECTS: Array<Project> = [
 			},
 		]
 	},
-	{
-		slug: 'luxolis-cad',
-		color: 'mediumorchid',
-		description:
-			'That\'s the project I\'ve been working at Luxolis, I am sorry if that\'s just a little, but unfrotunetlly that\'s the only one I am allowed to show. P.S. I have lost access to those jwt I used as testing models so...',
-		shortDescription:
-			'Project I\'ve worked at Luxolis.',
-		links: [{ to: '', label: '' }],
-		logo: Assets.Luxolis,
-		name: 'Luxolis CAD',
-		period: { from: getDate('August 2023'), to: getDate('November 2023') },
-		skills: getSkills('js', 'cpp', 'rjs', 'webgl'),
-		type: 'Commercial Project',
-		screenshots: [
-			{
-				label: 'CAD Screenshot 1',
-				src: `${checkPageLoaded('luxolis-cad/')}1.jpg`,
-			}
-		]
-	},	
+	// {
+	// 	slug: 'luxolis-cad',
+	// 	color: 'mediumorchid',
+	// 	description:
+	// 		'That\'s the project I\'ve been working at Luxolis, I am sorry if that\'s just a little, but unfrotunetlly that\'s the only one I am allowed to show. P.S. I have lost access to those jwt I used as testing models so...',
+	// 	shortDescription:
+	// 		'Project I\'ve worked at Luxolis.',
+	// 	links: [{ to: '', label: '' }],
+	// 	logo: Assets.Luxolis,
+	// 	name: 'Luxolis CAD',
+	// 	period: { from: getDate('August 2023'), to: getDate('November 2023') },
+	// 	skills: getSkills('js', 'cpp', 'rjs', 'webgl'),
+	// 	type: 'Commercial Project',
+	// 	screenshots: [
+	// 		{
+	// 			label: 'CAD Screenshot 1',
+	// 			src: `${checkPageLoaded('luxolis-cad/')}1.jpg`,
+	// 		}
+	// 	]
+	// },	
 	{
 		slug: 'dx-game',
 		color: 'black',
