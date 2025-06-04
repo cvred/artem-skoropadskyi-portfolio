@@ -11,7 +11,7 @@ const MY_PROJECTS: Array<Project> = [
 		slug: 'horizonsofachaea',
 		color: 'orange',
 		description:
-			'I will get updates when we will get MVP, currently sowy :D',
+			'Contributed across multiple systems as a core Unreal Engine Generalist on a cinematic, turn-based JRPG-style indie title. Developed custom UI components and an expandable dialogue system to support dynamic narrative interactions. Prototyped core combat mechanics and designed a modular `SpellEngine`—a standalone, flexible skill system built for seamless integration with diverse game components. Played a key role in bridging design and engineering efforts across the project. For the better understanding of the game please check out our YouTube channel `Horizons of Achaea`, I won\'t share anything that is not presented outside it as the game is under NDA.',
 		shortDescription:
 			'A commerical Indie Game Project in JRPG style with cinematic turn based fighting.',
 		links: [{ to: 'https://youtu.be/V-MTG9fuEJQ?si=F0LiULHiMkXlTx3Z', label: 'YouTube' }],
@@ -21,14 +21,17 @@ const MY_PROJECTS: Array<Project> = [
 		skills: getSkills('blueprints', 'ue', 'cpp', 'vs'),
 		type: 'Commercial Project',
 		screenshots: [
-			
+			{
+				label: 'Game Trailer #1',
+				src: `${checkPageLoaded('hoa/')}1.mp4`,
+			}
 		]
 	},
 	{
 		slug: 'newtypeprocedural',
 		color: 'pink',
 		description:
-			'A community-driven project aimed at exploring innovative approaches to procedural generation, specifically avoiding BSP (Binary Space Partitioning) algorithms. The goal is to generate unique, non-repetitive rooms based on a dynamic system where room properties are defined by JSON data. This project seeks to push the boundaries of procedural generation, offering a fresh and modular approach for creating diverse and unpredictable environments.',
+			'An experimental project focused on exploring innovative, non-traditional approaches to procedural generation—specifically avoiding BSP (Binary Space Partitioning) techniques. The objective is to create diverse, non-repetitive rooms using a dynamic system where spatial properties are defined through JSON data, enabling a high degree of modularity and control. As part of this research effort, we developed a custom procedural generation algorithm capable of creating a wide variety of spaces. The system emphasizes flexibility, allowing core parameters and structures to be easily modified through data-driven configurations. This approach pushes the boundaries of procedural design, promoting the creation of rich, unpredictable environments with minimal hardcoded constraints. If you want to play the game please leave me a note on LinkedIn.',
 		shortDescription:
 			'A community based project to purpose a new way of procedural generation',
 		links: [{ to: 'https://youtu.be/uqaBoQoF16w', label: 'YouTube' }],
@@ -38,7 +41,38 @@ const MY_PROJECTS: Array<Project> = [
 		skills: getSkills('blueprints', 'ue', 'cpp', 'vs', 'jira'),
 		type: 'Community Project',
 		screenshots: [
-			
+			{
+				label: 'Spawn Location',
+				src: `${checkPageLoaded('com/')}2.png`,
+			},
+						{
+				label: 'Safe Zone Corridor',
+				src: `${checkPageLoaded('com/')}3.png`,
+			},
+						{
+				label: 'Rescued NPCes Chill Zone',
+				src: `${checkPageLoaded('com/')}4.png`,
+			}, 
+						{
+				label: 'Main Character Bedroom',
+				src: `${checkPageLoaded('com/')}1.png`,
+			},
+						{
+				label: 'Quest Giver Room',
+				src: `${checkPageLoaded('com/')}5.png`,
+			},
+						{
+				label: 'Enemy Room',
+				src: `${checkPageLoaded('com/')}6.png`,
+			}, 
+						{
+				label: 'Treasure Room',
+				src: `${checkPageLoaded('com/')}7.png`,
+			},
+						{
+				label: 'Dungeon Corridor',
+				src: `${checkPageLoaded('com/')}8.png`,
+			}
 		]
 	},
 	{
