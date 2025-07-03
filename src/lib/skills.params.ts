@@ -104,38 +104,38 @@ const MY_SKILLS = [
 		logo: Assets.Github,
 		name: 'Github'
 	}),	
-	// s({
-	// 	slug: 'python',
-	// 	color: 'goldenrod',
-	// 	description: 
-	// 		`Python has been a key focus of mine, during my university studies, where I mastered its implementation for algorithmic and mathematical purposes. I have also ventured into areas such as Machine Learning and Data Science, utilizing Python extensively for these endeavors.`,
-	// 	logo: Assets.Python,
-	// 	name: 'Python'
-	// }),
-	// s({
-	// 	slug: 'numpy',
-	// 	color: 'dodgerblue',
-	// 	description:
-	// 		`NumPy is kind of like the Swiss Army knife of Python for numerical computing. It tackles all sorts of math problems, from simple calculations to complex simulations. During my university days, it became my go-to tool whenever I needed to build a math-based application. It saved me countless hours and helped me focus on understanding the concepts, not the tedious calculations.`,
-	// 	logo: Assets.Numpy,
-	// 	name: 'NumPy'
-	// }),
-	// s({
-	// 	slug: 'tensorflow',
-	// 	color: 'orange',
-	// 	description: 
-	// 		`During my university studies, I've mastered TensorFlow, utilizing this library extensively in both Python and Node.js for various Machine Learning projects.`,
-	// 	logo: Assets.Tensorflow,
-	// 	name: 'Tensorflow'
-	// }),	
-	// s({
-	// 	slug: 'opencv',
-	// 	color: 'lime',
-	// 	description:
-	// 		`OpenCV is like the foundation for building computer vision applications. It's a popular library used by many and has been helpful for me in developing vision-based projects. From creating robot vision systems using ROS to implementing computer vision tasks in Python for machine learning, OpenCV has been a valuable tool in my toolbox.`,
-	// 	logo: Assets.OpenCV,
-	// 	name: 'OpenCV'
-	// }),	  
+	s({
+		slug: 'python',
+		color: 'goldenrod',
+		description: 
+			`Python has been a key focus of mine, during my university studies, where I mastered its implementation for algorithmic and mathematical purposes. I have also ventured into areas such as Machine Learning and Data Science, utilizing Python extensively for these endeavors.`,
+		logo: Assets.Python,
+		name: 'Python'
+	}),
+	s({
+		slug: 'numpy',
+		color: 'dodgerblue',
+		description:
+			`NumPy is kind of like the Swiss Army knife of Python for numerical computing. It tackles all sorts of math problems, from simple calculations to complex simulations. During my university days, it became my go-to tool whenever I needed to build a math-based application. It saved me countless hours and helped me focus on understanding the concepts, not the tedious calculations.`,
+		logo: Assets.Numpy,
+		name: 'NumPy'
+	}),
+	s({
+		slug: 'tensorflow',
+		color: 'orange',
+		description: 
+			`During my university studies, I've mastered TensorFlow, utilizing this library extensively in both Python and Node.js for various Machine Learning projects.`,
+		logo: Assets.Tensorflow,
+		name: 'Tensorflow'
+	}),	
+	s({
+		slug: 'opencv',
+		color: 'lime',
+		description:
+			`OpenCV is like the foundation for building computer vision applications. It's a popular library used by many and has been helpful for me in developing vision-based projects. From creating robot vision systems using ROS to implementing computer vision tasks in Python for machine learning, OpenCV has been a valuable tool in my toolbox.`,
+		logo: Assets.OpenCV,
+		name: 'OpenCV'
+	}),	  
 	s({
 		slug: 'illustrator',
 		color: 'orange',
@@ -159,31 +159,31 @@ const MY_SKILLS = [
 			`Adobe Premiere is my go-to application for video editing, enabling me to craft good-quality videos with ease.`,
 		logo: Assets.Premiere,
 		name: 'Adobe Premiere'
-	// }),
-	// s({
-	// 	slug: 'js',
-	// 	color: 'yellow',
-	// 	description: 
-	// 		`JavaScript was the frontend scripting language I began learning in school and continued to study throughout university. While I rarely use pure JavaScript in my projects, I am fully capable of leveraging it to create dynamic animations and interactive elements.`,
-	// 	logo: Assets.JavaScript,
-	// 	name: 'JavaScript'
-	// }),	
-	// s({
-	// 	slug: 'njs',
-	// 	color: 'green',
-	// 	description: 
-	// 		`Node.js has been a staple in many of my projects due to its simplicity and easy-to-understand structure. I utilized it extensively in numerous university projects and gained valuable working experience with it.`,
-	// 	logo: Assets.NodeJs,
-	// 	name: 'NodeJS'
-	// }),
-	// s({
-	// 	slug: 'ts',
-	// 	color: 'deepskyblue',
-	// 	description: 
-	// 		`Similar to Node.js, I often turn to TypeScript for various projects, ranging from coursework to developing my portfolio website. I appreciate the toolkit that TypeScript offers, enhancing productivity and code quality.`,
-	// 	logo: Assets.TypeScript,
-	// 	name: 'TypeScript'
-	// }),	
+	}),
+	s({
+		slug: 'js',
+		color: 'yellow',
+		description: 
+			`JavaScript was the frontend scripting language I began learning in school and continued to study throughout university. While I rarely use pure JavaScript in my projects, I am fully capable of leveraging it to create dynamic animations and interactive elements.`,
+		logo: Assets.JavaScript,
+		name: 'JavaScript'
+	}),	
+	s({
+		slug: 'njs',
+		color: 'green',
+		description: 
+			`Node.js has been a staple in many of my projects due to its simplicity and easy-to-understand structure. I utilized it extensively in numerous university projects and gained valuable working experience with it.`,
+		logo: Assets.NodeJs,
+		name: 'NodeJS'
+	}),
+	s({
+		slug: 'ts',
+		color: 'deepskyblue',
+		description: 
+			`Similar to Node.js, I often turn to TypeScript for various projects, ranging from coursework to developing my portfolio website. I appreciate the toolkit that TypeScript offers, enhancing productivity and code quality.`,
+		logo: Assets.TypeScript,
+		name: 'TypeScript'
+	}),	
 	// s({
 	// 	slug: 'mongodb',
 	// 	color: 'green',
@@ -200,29 +200,29 @@ const MY_SKILLS = [
 	// 	logo: Assets.Mocha,
 	// 	name: 'Mocha'
 	// }),
-	// s({
-	// 	slug: 'rjs',
-	// 	color: 'cyan',
-	// 	description: 
-	// 		`React JS is a JavaScript library that I've utilized extensively in various projects. Its component-based architecture and virtual DOM make it efficient for building user interfaces. I've leveraged React to create dynamic and interactive web applications, improving user experience and development efficiency.`,
-	// 	logo: Assets.ReactJs,
-	// 	name: 'React JS'
-	// }),
-	// s({
-	// 	slug: '3js',
-	// 	color: 'black',
-	// 	description: 
-	// 		'Three.js is a powerful JavaScript library used for creating 3D graphics in web browsers. I\'ve utilized Three.js to develop immersive 3D experiences, such as virtual tours, interactive simulations, and visualizations. Its robust features and documentation have enabled me to push the boundaries of web-based 3D graphics.',
-	// 	logo: Assets.Threejs,
-	// 	name: 'Three.js'
-	// }),
-	// s({
-	// 	slug: 'webgl',
-	// 	color: 'crimson',
-	// 	description: 
-	// 		'WebGL is a JavaScript API for rendering interactive 3D and 2D graphics within any compatible web browser. I\'ve used WebGL to create visually stunning and high-performance graphics for web applications. Its low-level access to the GPU allows for the creation of complex visual effects and animations, enhancing the overall user experience.',
-	// 	logo: Assets.WebGL,
-	// 	name: 'WebGL'
+	s({
+		slug: 'rjs',
+		color: 'cyan',
+		description: 
+			`React JS is a JavaScript library that I've utilized extensively in various projects. Its component-based architecture and virtual DOM make it efficient for building user interfaces. I've leveraged React to create dynamic and interactive web applications, improving user experience and development efficiency.`,
+		logo: Assets.ReactJs,
+		name: 'React JS'
+	}),
+	s({
+		slug: '3js',
+		color: 'black',
+		description: 
+			'Three.js is a powerful JavaScript library used for creating 3D graphics in web browsers. I\'ve utilized Three.js to develop immersive 3D experiences, such as virtual tours, interactive simulations, and visualizations. Its robust features and documentation have enabled me to push the boundaries of web-based 3D graphics.',
+		logo: Assets.Threejs,
+		name: 'Three.js'
+	}),
+	s({
+		slug: 'webgl',
+		color: 'crimson',
+		description: 
+			'WebGL is a JavaScript API for rendering interactive 3D and 2D graphics within any compatible web browser. I\'ve used WebGL to create visually stunning and high-performance graphics for web applications. Its low-level access to the GPU allows for the creation of complex visual effects and animations, enhancing the overall user experience.',
+		logo: Assets.WebGL,
+		name: 'WebGL'
 	// }),
 	// s({
 	// 	slug: 'html',

@@ -21,7 +21,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		shortDescription: 'Worked on unreleased project'
 	},
 	{
-		slug: 'qa-tech',
+		slug: 'qa-tech', // ну и хуита ...
 		company: 'Testronic',
 		description: 'Worked as an FQA Technician at Testronic, there I specialized providing QA services for game development projects, notably contributing to the development of For The King 2. During this work experience my expertise extended to working closely with Unity Engine, employing C# programming language, and efficiently utilizing Jira for project management and issue tracking.',
 		contract: ContractType.FullTime,
@@ -36,7 +36,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		shortDescription: 'Provided QA services for titles'
 	},
 	{
-		slug: 'software-engineer-junior',
+		slug: 'software-engineer-junior', // хуита 50/50
 		company: 'Luxolis',
 		description: 'As a Freelance Software Engineer, I leveraged JavaScript libraries like Three.js to create immersive 3D experiences, while harnessing C++ for performance-critical components tailored to the CAD environment. I collaborated closely with Luxolis\'s AI team to integrate new bug fixes into the CAD system, ensuring seamless interaction between the 3D environment and AI algorithms. I contributed significantly to the continuous enhancement of Luxolis\'s CAD technology stack through innovative problem solving, guaranteeing a high-quality end product for users. I designed and implemented dynamic lighting systems that significantly improved rendering performance and visual fidelity. Additionally, I developed custom shaders and materials to achieve realistic material interactions and effects in the CAD environment, and optimized memory management strategies, resulting in a 30% reduction in memory usage and improved overall system stability.',
 		contract: ContractType.Freelance,
@@ -66,9 +66,9 @@ const MY_EXPERIENCES: Array<Experience> = [
 		shortDescription: 'Worked with indie game team on an Unreal Engine project'
 	},
 	{
-		slug: 'game-tester',
+		slug: 'game-tester', // ну и хуита ... 
 		company: 'Lionbridge',
-		description: 'As a Game Tester at Lionbridge, my primary responsibility involved identifying, documenting, and reporting any potential game issues to developers, ensuring a smooth and polished experience for end users. I worked on an unreleased DLC project for a 2D game, focusing on Functional Quality Assurance (FQA) testing. This role allowed me to deepen my understanding of the game development cycle, particularly in reporting bugs, collaborating with developers, and improving communication between QA teams and clients. My work significantly contributed to enhancing the game\'s quality, utilizing tools like Jira for issue tracking and reporting.',
+		description: 'As a QA Analyst at Lionbridge, my primary responsibility involved identifying, documenting, and reporting any potential game issues to developers, ensuring a smooth and polished experience for end users. I worked on an unreleased DLC project for a 2D game, focusing on Functional Quality Assurance (FQA) testing. This role allowed me to deepen my understanding of the game development cycle, particularly in reporting bugs, collaborating with developers, and improving communication between QA teams and clients. My work significantly contributed to enhancing the game\'s quality, utilizing tools like Jira for issue tracking and reporting.',
 		contract: ContractType.FullTime,
 		type: 'Game Development',
 		location: 'Warsaw',
@@ -78,7 +78,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		color: 'darkorange',
 		links: [],
 		logo: Assets.Lionbridge,
-		shortDescription: 'Worked as Game Tester on Blasphemous 2 DLC and one unrealeased project'
+		shortDescription: 'Worked as QA Analyst for titles, rarely providing Compliance assist.'
 	}
 ];
 

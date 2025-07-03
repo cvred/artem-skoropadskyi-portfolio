@@ -8,6 +8,38 @@ import { checkPageLoaded } from './utils/helpers';
 
 const MY_PROJECTS: Array<Project> = [
 	{
+		slug: 'dateeverything',
+		color: 'deeppink',
+		description:
+  			'Served as a QA Analyst on *Date Everything*, an indie game developed for Nintendo Switch and Xbox Series X. Contributed to key submission milestones by identifying and documenting platform-specific issues, including controller-related compliance problems, dialogue inconsistencies, and physics-related bugs. Played a pivotal role in ensuring certification readiness through thorough testing and cross-functional collaboration with developers and producers.',
+		shortDescription:
+			'An indie game where you can literally date anything!',
+		links: [{ to: 'https://store.steampowered.com/app/2201320/Date_Everything/', label: 'Steam' }],
+		logo: Assets.DateEverything,
+		name: 'Date Everything',
+		period: { from: getDate('November 01 2024'), to: getDate('June 16 2025') },
+		skills: getSkills('jira'),
+		type: 'Commercial Project',
+		screenshots: [
+			{
+				label: 'Game Picture 1',
+				src: `${checkPageLoaded('date-everything/')}1.jpg`,
+			},
+			{
+				label: 'Gameplay Screenshot 2',
+				src: `${checkPageLoaded('date-everything/')}2.jpg`,
+			},
+			{
+				label: 'Gameplay Screenshot 3',
+				src: `${checkPageLoaded('date-everything/')}3.jpg`,
+			},
+			{
+				label: 'Credits 4',
+				src: `${checkPageLoaded('date-everything/')}4.jpg`,
+			}
+		]
+	},
+	{
 		slug: 'horizonsofachaea',
 		color: 'orange',
 		description:
