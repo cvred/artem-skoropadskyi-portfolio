@@ -46,7 +46,7 @@ const MY_PROJECTS: Array<Project> = [
 			'Contributed across multiple systems as a core Unreal Engine Generalist on a cinematic, turn-based JRPG-style indie title. Developed custom UI components and an expandable dialogue system to support dynamic narrative interactions. Prototyped core combat mechanics and designed a modular `SpellEngine`—a standalone, flexible skill system built for seamless integration with diverse game components. Played a key role in bridging design and engineering efforts across the project. For the better understanding of the game please check out our YouTube channel `Horizons of Achaea`, I won\'t share anything that is not presented outside it as the game is under NDA.',
 		shortDescription:
 			'A commerical Indie Game Project in JRPG style with cinematic turn based fighting.',
-		links: [{ to: 'https://youtu.be/V-MTG9fuEJQ?si=F0LiULHiMkXlTx3Z', label: 'YouTube' }],
+		links: [{ to: 'https://youtu.be/V-MTG9fuEJQ?si=F0LiULHiMkXlTx3Z', label: 'YouTube' }, {to: "https://store.steampowered.com/app/3869920/Horizons_of_Achaea", label: "Steam"}],
 		logo: Assets.HorizonsOfAchaea,
 		name: 'Horizons Of Achaea',
 		period: { from: getDate('November 27 2024'), to: getCurrentDate() },
