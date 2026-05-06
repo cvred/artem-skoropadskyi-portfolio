@@ -12,18 +12,13 @@
 </script>
 
 <svelte:head>
-  <script
-    async
-    src="https://www.googletagmanager.com/gtag/js?id=G-3F2CHBZGN1">
-  </script>
-  <script>
-    window.dataLayer = window.dataLayer || []
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3F2CHBZGN1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    function gtag() {
-      dataLayer.push(arguments)
-    }
-
-    gtag('js', new Date())
-    gtag('config', 'MEASUREMENT_ID')
-  </script>
+  gtag('config', 'G-3F2CHBZGN1');
+</script>
 </svelte:head>
