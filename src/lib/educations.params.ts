@@ -13,5 +13,17 @@ export const MY_EDUCATIONS: Array<Education> = [
 		shortDescription: '',
 		slug: 'bachelor-degree',
 		subjects: ['C++', 'Unreal Engine', 'Blueprints','Algorithm\'s', 'Python', 'Linear Algebra', 'Mathematical Analysis', 'Tensorflow', 'NumPY', 'OpenCV','JavaScript', 'Mocha', 'ReactJS', 'GameTheory', 'Scrum & Agile', 'AI', 'English']
+	},
+	{
+		degree: 'Bachelor degree of Computer Science',
+		description: '',
+		location: 'Kyiv, Ukraine',
+		logo: Assets.University,
+		name: '',
+		organization: 'National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”',
+		period: { from: new Date('2024'), to: new Date('2025') },
+		shortDescription: '',
+		slug: 'master-degree',
+		subjects: ['Algorithm\'s', 'Python', 'Functional Analysis',  'Advanced Mathematics', 'Data Control', 'AI', 'English']
 	}
 ];

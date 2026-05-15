@@ -8,6 +8,30 @@ import { checkPageLoaded } from './utils/helpers';
 
 const MY_PROJECTS: Array<Project> = [
 	{
+		slug: 'modular-dialogue',
+		color: 'deepskyblue',
+		description:
+  			'Built a flexible dialogue tool that lets you assign cinematic camera shots to individual characters — so each conversation can automatically frame characters with their own defined shot style.',
+		shortDescription:
+			'Made a Modular Dialogue tool, adding cinematic camera shots to characters profile.',
+		links: [{ to: '', label: '' }],
+		logo: Assets.UnrealEngine,
+		name: 'Modular Dialogue',
+		period: { from: getDate('June 01 2025'), to: getDate('March 21 2026') },
+		skills: getSkills('blueprints', 'ue', 'cpp', 'vs'),
+		type: 'Commercial Project',
+		screenshots: [
+			{
+				label: 'Example 1',
+				src: `${checkPageLoaded('modular-dialogue/')}1.png`,
+			},
+			{
+				label: 'Example 2',
+				src: `${checkPageLoaded('modular-dialogue/')}2.png`,
+			}
+		]
+	},
+	{
 		slug: 'dateeverything',
 		color: 'deeppink',
 		description:
