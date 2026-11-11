@@ -115,7 +115,7 @@ export const SKILLS: SkillsPageParams = {
 
 export const RESUME: ResumePageParams = {
 	title: 'Resumé',
-	item: `${checkPageLoaded('./')}Artem Skoropadskyi Resume.pdf`
+	item: `${checkPageLoaded('./')}Artem_Skoropadskyi_CV.pdf`
 };
 
 export const SEARCH: SearchPageParams = {
