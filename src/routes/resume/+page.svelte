@@ -18,7 +18,7 @@
 
 			<p class = "or-text"> or </p>
 
-			<a href="https://www.dropbox.com/scl/fo/6g8oh5t80jp9h2k0ahczb/AGtISob_pBMmNiPNpmR_BO8?rlkey=m3wni55s4zh9ctt5n4dypqa04&st=m36u0zfz&dl=0" target="_blank" class="dropbox-button">
+			<a href="https://www.dropbox.com/scl/fi/ydoo4yf1u3noviayxyv1s/Artem_Skoropadskyi_CV.pdf?rlkey=xl6b9q7tt3tx7vyo0gwdach6v&st=2696n8ov&dl=0" target="_blank" class="dropbox-button">
 				<Chip>View on Dropbox</Chip>
 			</a>
 		{:else}

@@ -231,26 +231,20 @@ const MY_PROJECTS: Array<Project> = [
 			},
 		]
 	},
-	// {
-	// 	slug: 'luxolis-cad',
-	// 	color: 'mediumorchid',
-	// 	description:
-	// 		'That\'s the project I\'ve been working at Luxolis, I am sorry if that\'s just a little, but unfrotunetlly that\'s the only one I am allowed to show. P.S. I have lost access to those jwt I used as testing models so...',
-	// 	shortDescription:
-	// 		'Project I\'ve worked at Luxolis.',
-	// 	links: [{ to: '', label: '' }],
-	// 	logo: Assets.Luxolis,
-	// 	name: 'Luxolis CAD',
-	// 	period: { from: getDate('August 2023'), to: getDate('November 2023') },
-	// 	skills: getSkills('js', 'cpp', 'rjs', 'webgl'),
-	// 	type: 'Commercial Project',
-	// 	screenshots: [
-	// 		{
-	// 			label: 'CAD Screenshot 1',
-	// 			src: `${checkPageLoaded('luxolis-cad/')}1.jpg`,
-	// 		}
-	// 	]
-	// },	
+	{
+		slug: 'luxolis-cad',
+		color: 'mediumorchid',
+		description:
+			'Freelance software developer on a browser-based CAD tool at Luxolis, built primarily on Three.js/WebGL with a C++ service layer. Reduced 3D scene render load times and memory allocation through targeted class-hierarchy refactoring — flattening deep inheritance and replacing dynamic dispatch with static dispatch in hot paths. Improved rendering throughput via custom shader optimization and strategic light baking. Packaged the C++ service and its build/runtime dependencies in Docker containers so another team could integrate and test against a reproducible environment.',
+		shortDescription:
+			'Performance and rendering work on a browser-based CAD tool, plus Dockerized C++ service packaging.',
+		links: [{ to: '', label: '' }],
+		logo: Assets.Luxolis,
+		name: 'Luxolis CAD',
+		period: { from: getDate('August 2023'), to: getDate('November 2023') },
+		skills: getSkills('js', 'cpp', 'rjs', 'webgl'),
+		type: 'Commercial Project'
+	},
 	{
 		slug: 'dx-game',
 		color: 'black',
